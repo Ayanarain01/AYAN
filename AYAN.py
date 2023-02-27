@@ -1143,7 +1143,7 @@ def rehan():
 	elif gh =='3':
 		chos()
 	elif gh =='4':
-		os.system('xdg-open http://Wa.me/+97564382087')
+		os.system('xdg-open http://Wa.me/+971564382087')
 	elif gh =='0':
 		print('[•] THANKS FOR USE ')
 		time.sleep(3)

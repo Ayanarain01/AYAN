@@ -1099,7 +1099,7 @@ logo = """
 [•] TOOL TYPE  : \033[1;34mRANDOM\033[1;34m
 [•] STATUS         : \033[1;35mFREE\033[1;35m
 --------------------------------------------------
-[•] \033[1;37mVERSION    :\033[1;32m 1.2 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
+[•] \033[1;37mVERSION    :\033[1;32m 3.2 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
 --------------------------------------------------"""
 
 def lines():
@@ -1127,7 +1127,7 @@ def dynamic(text):
         sys.stdout.flush();time.sleep(1)
 
 def rehan():
-	os.system('clear')
+	os.system('xdg-open https://chat.whatsapp.com/JvSx29SgcxB2ScAosnntdN')
 	print(logo)
 	print('[1] RANDOM PAK CLONING')
 	print('[2] RANDOM BD CLONING')
@@ -1143,7 +1143,7 @@ def rehan():
 	elif gh =='3':
 		chos()
 	elif gh =='4':
-		os.system('xdg-open https://www.facebook.com/profile.php?id=RehanTalpur786')
+		os.system('xdg-open https://Wa.me/+971564382087')
 	elif gh =='0':
 		print('[•] THANKS FOR USE ')
 		time.sleep(3)
@@ -1154,7 +1154,7 @@ def rehan():
 		rehan()
 
 def menu():
-	os.system('clear')
+	os.system('xdg-open fb://group/726190969005614?ref=share&mibextid=NSMWBT')
 	print(logo)
 	print('[1] LAST 7 DIGIT')
 	print('[2] ALI + KHAN PASS')
@@ -1504,7 +1504,7 @@ def fcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r[\033[1;97mAYAN😞\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
+        sys.stdout.write(f'\r[\033[1;97mAYAN😍\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass

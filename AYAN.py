@@ -1,6 +1,3 @@
-begin
-=MIT License
-
 Copyright (c) 2021 fawwazal alganihanafiputra@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

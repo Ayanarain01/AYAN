@@ -1,7 +1,7 @@
  ####@-----Import-----@####
 import os,base64
 
-os.system('git pull -q;rm .rndm')
+os.system('xdg-open git pull')
 try:
 	import os,sys,time,json,random,re,string,platform,base64,uuid,requests,io,struct
 	from string import *
@@ -80,8 +80,8 @@ tred = speed
 logo= f''' 
 
  {P}    _ __   __ _    _   _ 
-  {G}  / \\ \ / // \  | \ | |
- {R}  / _ \\ V // _ \ |  \| |
+   {G}  / \\ \ / // \  | \ | |
+  {R}  / _ \\ V // _ \ |  \| |
   {S}/ ___ \| |/ ___ \| |\  |
 {Y} /_/   \_\_/_/   \_\_| \_|                       
 
